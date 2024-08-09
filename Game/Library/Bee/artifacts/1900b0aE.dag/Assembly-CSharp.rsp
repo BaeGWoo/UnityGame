@@ -354,6 +354,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Class1th (Gizmo)/Quirky Series Ultimate/_Scripts/QuirkySeriesDemo.cs"
 "Assets/Class1th (Gizmo)/Quirky Series Ultimate/_Scripts/RotateOnScroll.cs"
+"Assets/Class2th (Script)/Scripts/Dinosaur.cs"
+"Assets/Class2th (Script)/Scripts/States.cs"
 -langversion:9.0
 /deterministic
 /optimize+
