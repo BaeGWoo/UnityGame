@@ -356,6 +356,8 @@
 "Assets/Class1th (Gizmo)/Quirky Series Ultimate/_Scripts/RotateOnScroll.cs"
 "Assets/Class2th (Script)/Scripts/Dinosaur.cs"
 "Assets/Class2th (Script)/Scripts/States.cs"
+"Assets/Class3th (GetComponent)/Scripts/Move.cs"
+"Assets/Class3th (GetComponent)/Scripts/StoneUnit.cs"
 -langversion:9.0
 /deterministic
 /optimize+

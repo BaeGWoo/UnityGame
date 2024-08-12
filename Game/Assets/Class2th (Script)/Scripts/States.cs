@@ -36,7 +36,6 @@ public class States : MonoBehaviour
     {
         Debug.Log("Attack 변수의 값은 " + attack);
         Debug.Log("Data의 이름 "+data.Name);
-
     }
 
    
