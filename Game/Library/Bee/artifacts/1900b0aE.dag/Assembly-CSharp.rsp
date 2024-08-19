@@ -364,6 +364,8 @@
 "Assets/Class5th (Animation)/Scripts/ManState.cs"
 "Assets/Class6th (UserInterface)/Scripts/MenuManager.cs"
 "Assets/Class6th (UserInterface)/Scripts/Select.cs"
+"Assets/Class7th (Prefab)/Scripts/Health.cs"
+"Assets/Class7th (Prefab)/Scripts/Mummy.cs"
 -langversion:9.0
 /deterministic
 /optimize+
