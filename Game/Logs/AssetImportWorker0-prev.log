@@ -15,7 +15,7 @@ C:/Users/Administrator/Desktop/UnityGame/Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50276
+50354
 Successfully changed project path to: C:/Users/Administrator/Desktop/UnityGame/Game
 C:/Users/Administrator/Desktop/UnityGame/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Administrator/Desktop/UnityGame/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9916] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 2182291822 [EditorId] 2182291822 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17760] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 276482352 [EditorId] 276482352 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9916] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 2182291822 [EditorId] 2182291822 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17760] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 276482352 [EditorId] 276482352 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 6.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.30f1 (70558241b701)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.007347 seconds.
-- Loaded All Assemblies, in  0.343 seconds
+Registered in 0.006875 seconds.
+- Loaded All Assemblies, in  0.396 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.268 seconds
-Domain Reload Profiling: 611ms
-	BeginReloadAssembly (106ms)
+- Finished resetting the current domain, in  0.434 seconds
+Domain Reload Profiling: 831ms
+	BeginReloadAssembly (130ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
+	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (141ms)
-		LoadAssemblies (105ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (159ms)
+		LoadAssemblies (129ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (139ms)
-			TypeCache.Refresh (138ms)
-				TypeCache.ScanAssembly (123ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (139ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (269ms)
+	FinalizeReload (435ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (210ms)
+		SetupLoadedEditorAssemblies (365ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (142ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 611ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.624 seconds
-Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.773 seconds
+Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.635 seconds
-Domain Reload Profiling: 1259ms
-	BeginReloadAssembly (157ms)
+- Finished resetting the current domain, in  0.622 seconds
+Domain Reload Profiling: 1395ms
+	BeginReloadAssembly (191ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (383ms)
-		LoadAssemblies (295ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (494ms)
+		LoadAssemblies (405ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (179ms)
-			TypeCache.Refresh (157ms)
-				TypeCache.ScanAssembly (139ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (154ms)
 			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (636ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (622ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (465ms)
+		SetupLoadedEditorAssemblies (451ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (365ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (57.7 KB). Loaded Objects now: 3574.
-Memory consumption went from 127.2 MB to 127.1 MB.
-Total: 3.672900 ms (FindLiveObjects: 0.322100 ms CreateObjectMapping: 0.330400 ms MarkObjects: 2.859300 ms  DeleteObjects: 0.160000 ms)
+Unloading 3108 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.7 KB). Loaded Objects now: 3577.
+Memory consumption went from 127.3 MB to 127.2 MB.
+Total: 6.428400 ms (FindLiveObjects: 0.467400 ms CreateObjectMapping: 0.353900 ms MarkObjects: 5.416100 ms  DeleteObjects: 0.189100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,167 +183,273 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 261.003316 seconds.
-  path: Assets/Class6th (UI)
-  artifactKey: Guid(f6568355a760bb7429dea07fbda3523b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th (UI) using Guid(f6568355a760bb7429dea07fbda3523b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b28c0d05b478859232cbab9b1aa74b') in 0.004213 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 13.201194 seconds.
-  path: Assets/Class6th (UI)/Scenes
-  artifactKey: Guid(965665bb179730742967234aa7e2f7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th (UI)/Scenes using Guid(965665bb179730742967234aa7e2f7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df29ddbd4228b74ee7f7cda198d4b654') in 0.000404 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.410749 seconds.
-  path: Assets/Class6th (UI)/Scenes/Game.unity
-  artifactKey: Guid(0fb22377cc7f854458933db5b3759526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th (UI)/Scenes/Game.unity using Guid(0fb22377cc7f854458933db5b3759526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac0bb9896712e5f5e8c6de29c9a916a') in 0.000382 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 490.576550 seconds.
-  path: Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free
-  artifactKey: Guid(067a1f22b0766b24a802b45642e2e339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free using Guid(067a1f22b0766b24a802b45642e2e339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a164d70f7dc04050db894a8fa55cc225') in 0.000514 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.654070 seconds.
-  path: Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A
-  artifactKey: Guid(fb0793ba43ead8c4a89d62e19ce3e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A using Guid(fb0793ba43ead8c4a89d62e19ce3e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea42359573497f5620952bfaabd72151') in 0.000365 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.101116 seconds.
-  path: Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd
-  artifactKey: Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd using Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153a86e6a53ae6ee5e277cf3d61e2e65') in 0.126049 seconds
+  Time since last request: 250.106499 seconds.
+  path: Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png
+  artifactKey: Guid(9494e936ef153d148aaddfa6db5fb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png using Guid(9494e936ef153d148aaddfa6db5fb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f830f324e899c542cf416669761f614') in 0.190938 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png
-  artifactKey: Guid(2be7b70e984b51444aca9c12ae4723a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png using Guid(2be7b70e984b51444aca9c12ae4723a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4a890036e69f170a776114ac324ce4') in 0.030217 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png
-  artifactKey: Guid(11277a3f23988ec47908362d708edaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png using Guid(11277a3f23988ec47908362d708edaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e5c4c7032d8936c6bee95c0eb3ea03') in 0.016068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
+  Time since last request: 0.000043 seconds.
   path: Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png
   artifactKey: Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png using Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39e34b0c46306f8166f0f20795459c3') in 0.015499 seconds
+Start importing Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png using Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e172c6d642fbd01bb4c52e9cb191f33') in 0.019174 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png
-  artifactKey: Guid(e9d4143c19529834981ac6821a04aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png using Guid(e9d4143c19529834981ac6821a04aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc4210d87fcbc830668a2c064b2bbcb') in 0.018741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
+  Time since last request: 0.000023 seconds.
   path: Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png
   artifactKey: Guid(ca45d178d188e034aa96a68aceeef41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png using Guid(ca45d178d188e034aa96a68aceeef41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c1322f063f13abd50ea59f41257eca') in 0.024127 seconds
+Start importing Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png using Guid(ca45d178d188e034aa96a68aceeef41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f5700513d64b789c94dc86c8c83bb3') in 0.017813 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png
-  artifactKey: Guid(f73f68fe6815f5548a6c2a61b9e49add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png using Guid(f73f68fe6815f5548a6c2a61b9e49add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db113f04c739eee71f6711f10abae40') in 0.024750 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
+  Time since last request: 0.000018 seconds.
   path: Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png
   artifactKey: Guid(b7d245916891cca47a0144e12a82e086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png using Guid(b7d245916891cca47a0144e12a82e086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8e2b139aa695b77d6c51a233c9d619') in 0.021705 seconds
+Start importing Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png using Guid(b7d245916891cca47a0144e12a82e086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9595342e49b8ca9de73ec9a97b59fd48') in 0.023000 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png
-  artifactKey: Guid(054411784c3fdf74d9db120b4a792a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png using Guid(054411784c3fdf74d9db120b4a792a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e85d0b6987afb8bfe969283c5eabc29') in 0.028703 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png
+  artifactKey: Guid(2e5f47e2f71128f4282c0a4a67288751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class6th (UserInterface)/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png using Guid(2e5f47e2f71128f4282c0a4a67288751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8ad4feba1e57bb6ce41330f282f6a6') in 0.018182 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 727.064279 seconds.
+  path: Assets/Class7th (Instantiate)
+  artifactKey: Guid(7be2092e18a108a458ab157a799c6fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th (Instantiate) using Guid(7be2092e18a108a458ab157a799c6fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb7cdcc26dd3bab8fe97e6fe180800d') in 0.000580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.685630 seconds.
+  path: Assets/Class7th (Instantiate)/Scenes
+  artifactKey: Guid(7a4f57ac0ae496d47bb153a4de9d017f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th (Instantiate)/Scenes using Guid(7a4f57ac0ae496d47bb153a4de9d017f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c2deb61055769f5001c447805b2e68') in 0.000381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.287483 seconds.
+  path: Assets/Class7th (Instantiate)/Scenes/Game.unity
+  artifactKey: Guid(89297ec0afec7e6488cc58f96ba70b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th (Instantiate)/Scenes/Game.unity using Guid(89297ec0afec7e6488cc58f96ba70b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ec643be5fa1d90d8b5effe37ddd461') in 0.000376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 450.777736 seconds.
+  path: Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart
+  artifactKey: Guid(3668e2e3ff07442ba17f27cc1e805ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart using Guid(3668e2e3ff07442ba17f27cc1e805ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2998c5a554eb392ffb6ce4822eef4b') in 0.000448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.642693 seconds.
+  path: Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Prefab
+  artifactKey: Guid(ea2a3768155b4145bc9ac828bf4ca964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Prefab using Guid(ea2a3768155b4145bc9ac828bf4ca964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce63d0e7e4793f01dbb7398f8887bc1f') in 0.000408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.091559 seconds.
+  path: Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Prefab/Swarm08.prefab
+  artifactKey: Guid(75f057b43e0a449dae5f6549f5107474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Prefab/Swarm08.prefab using Guid(75f057b43e0a449dae5f6549f5107474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1268fdedfb2bf4c5e5fb1320a07c40a1') in 0.361692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.447 seconds
-Refreshing native plugins compatible for Editor in 2.42 ms, found 3 plugins.
+- Loaded All Assemblies, in  2.321 seconds
+Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.767 seconds
-Domain Reload Profiling: 1214ms
-	BeginReloadAssembly (159ms)
+- Finished resetting the current domain, in  9.141 seconds
+Domain Reload Profiling: 11462ms
+	BeginReloadAssembly (151ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (32ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (222ms)
-		LoadAssemblies (294ms)
+	LoadAllAssembliesAndSetupDomain (2109ms)
+		LoadAssemblies (2173ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (16ms)
 			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (768ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (9141ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (368ms)
+		SetupLoadedEditorAssemblies (392ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (280ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3597.
-Memory consumption went from 129.9 MB to 129.8 MB.
-Total: 3.342000 ms (FindLiveObjects: 0.414200 ms CreateObjectMapping: 0.361500 ms MarkObjects: 2.490200 ms  DeleteObjects: 0.074700 ms)
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.6 KB). Loaded Objects now: 3598.
+Memory consumption went from 131.6 MB to 131.6 MB.
+Total: 2.720700 ms (FindLiveObjects: 0.229000 ms CreateObjectMapping: 0.179000 ms MarkObjects: 2.274700 ms  DeleteObjects: 0.037300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 73.038250 seconds.
+  path: Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Animation/Swarm08/Swarm08_Attack.fbx
+  artifactKey: Guid(7a0fe8419447441abd11dc236dc28a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Animation/Swarm08/Swarm08_Attack.fbx using Guid(7a0fe8419447441abd11dc236dc28a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4699b5c53d7bb5c69efe96d6e1cc42') in 0.107573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Animation/Swarm08/Swarm08_MoveLFT.fbx
+  artifactKey: Guid(98e0d0c76c7e48889421b846b11e282a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Animation/Swarm08/Swarm08_MoveLFT.fbx using Guid(98e0d0c76c7e48889421b846b11e282a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c662d9077d62fce1b70a2fb398baa0bf') in 0.020366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Animation/Swarm08/Swarm08_MoveRGT.fbx
+  artifactKey: Guid(014d4aa244ba4df4a9e8b565e8a2414a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Animation/Swarm08/Swarm08_MoveRGT.fbx using Guid(014d4aa244ba4df4a9e8b565e8a2414a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005b6ef5ccd5dbd2426b2f4377c7ea3f') in 0.015989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Animation/Swarm08/Swarm08_MoveFWD.fbx
+  artifactKey: Guid(79ba85de661a4af484e03b1978112749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Animation/Swarm08/Swarm08_MoveFWD.fbx using Guid(79ba85de661a4af484e03b1978112749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cee7728a48782be335c110ca5591aa') in 0.016431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.074340 seconds.
+  path: Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Animation/Swarm08/Swarm08.controller
+  artifactKey: Guid(aa154e9fd2c241ef97254e0195862deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Animation/Swarm08/Swarm08.controller using Guid(aa154e9fd2c241ef97254e0195862deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b98579192ff19edb5b84c6530bf9d2') in 0.003917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 37.443813 seconds.
+  path: Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Animation/Swarm09/Swarm09_Die.fbx
+  artifactKey: Guid(c78e4349565c42a8bc257e2133792c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Animation/Swarm09/Swarm09_Die.fbx using Guid(c78e4349565c42a8bc257e2133792c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba431f993054d7f49d16320c8a8dbad') in 0.043821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Animation/Swarm09/Swarm09_MoveFWD.fbx
+  artifactKey: Guid(32eabf87c5874ae2b4a1a0cc8b55b52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Animation/Swarm09/Swarm09_MoveFWD.fbx using Guid(32eabf87c5874ae2b4a1a0cc8b55b52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389ef31832cc801f185697825431d85f') in 0.019196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Animation/Swarm09/Swarm09_MoveBWD.fbx
+  artifactKey: Guid(7ced426de0114e17a2f37f96e5742b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class7th (Instantiate)/Monster Minion Survivor PBR Polyart/Animation/Swarm09/Swarm09_MoveBWD.fbx using Guid(7ced426de0114e17a2f37f96e5742b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d52aeb15018de1daa9da05b612c6f1') in 0.018547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.433 seconds
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.821 seconds
+Domain Reload Profiling: 1255ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (199ms)
+		LoadAssemblies (271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (823ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (408ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (30.7 KB). Loaded Objects now: 3605.
+Memory consumption went from 131.9 MB to 131.8 MB.
+Total: 2.344200 ms (FindLiveObjects: 0.234600 ms CreateObjectMapping: 0.192700 ms MarkObjects: 1.881200 ms  DeleteObjects: 0.034900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
