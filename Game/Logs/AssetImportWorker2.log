@@ -15,7 +15,7 @@ C:/Users/Administrator/Desktop/UnityGame/Game
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-65153
+51684
 Successfully changed project path to: C:/Users/Administrator/Desktop/UnityGame/Game
 C:/Users/Administrator/Desktop/UnityGame/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Administrator/Desktop/UnityGame/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16504] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 200769980 [EditorId] 200769980 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4452] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 1916403088 [EditorId] 1916403088 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16504] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 200769980 [EditorId] 200769980 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4452] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 1916403088 [EditorId] 1916403088 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 6.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.30f1 (70558241b701)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.005590 seconds.
-- Loaded All Assemblies, in  0.344 seconds
+Registered in 0.007066 seconds.
+- Loaded All Assemblies, in  0.437 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.272 seconds
-Domain Reload Profiling: 615ms
-	BeginReloadAssembly (110ms)
+- Finished resetting the current domain, in  0.310 seconds
+Domain Reload Profiling: 747ms
+	BeginReloadAssembly (134ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (142ms)
-		LoadAssemblies (109ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (172ms)
+		LoadAssemblies (134ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (140ms)
-			TypeCache.Refresh (139ms)
-				TypeCache.ScanAssembly (124ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (151ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (272ms)
+	FinalizeReload (310ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (209ms)
+		SetupLoadedEditorAssemblies (245ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (140ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 615ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.641 seconds
-Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.774 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.593 seconds
-Domain Reload Profiling: 1234ms
-	BeginReloadAssembly (159ms)
+- Finished resetting the current domain, in  0.644 seconds
+Domain Reload Profiling: 1418ms
+	BeginReloadAssembly (186ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (36ms)
+	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (397ms)
-		LoadAssemblies (308ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (495ms)
+		LoadAssemblies (377ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (182ms)
-			TypeCache.Refresh (161ms)
-				TypeCache.ScanAssembly (145ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (594ms)
+		AnalyzeDomain (234ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (179ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (645ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (438ms)
+		SetupLoadedEditorAssemblies (461ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (350ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (360ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.27 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (58.3 KB). Loaded Objects now: 3580.
-Memory consumption went from 127.3 MB to 127.3 MB.
-Total: 6.541300 ms (FindLiveObjects: 0.484000 ms CreateObjectMapping: 0.383300 ms MarkObjects: 5.442800 ms  DeleteObjects: 0.229200 ms)
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (58.2 KB). Loaded Objects now: 3584.
+Memory consumption went from 127.7 MB to 127.6 MB.
+Total: 6.262600 ms (FindLiveObjects: 0.647800 ms CreateObjectMapping: 0.558800 ms MarkObjects: 4.859400 ms  DeleteObjects: 0.195000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,116 +183,100 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 362.185881 seconds.
-  path: Assets/Class8th (Instantiate)/Prefabs/Mallet.prefab
-  artifactKey: Guid(13a8da9c323f7b94a97fc045e83ae446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class8th (Instantiate)/Prefabs/Mallet.prefab using Guid(13a8da9c323f7b94a97fc045e83ae446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f609d3e80eaf7bef9fc613fe658fe0') in 0.148018 seconds
+  Time since last request: 225.331072 seconds.
+  path: Assets/Class10th (Sound)/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Attack02ST.fbx
+  artifactKey: Guid(0be5f44ec700489faeb0ae9c20edd329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class10th (Sound)/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Attack02ST.fbx using Guid(0be5f44ec700489faeb0ae9c20edd329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b6ae93ae7baf8a8f717c8e931101c9') in 0.228464 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 103
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Class8th (Instantiate)/Prefabs/Chainsaw.prefab
-  artifactKey: Guid(8801a5a5bbf8bae46b603dc33faf8627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class8th (Instantiate)/Prefabs/Chainsaw.prefab using Guid(8801a5a5bbf8bae46b603dc33faf8627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74b8eb6a86673b8f2eafc2263fbdb80') in 0.040495 seconds
+  Time since last request: 0.000057 seconds.
+  path: Assets/Class10th (Sound)/RPGMonsterPartnersPBRPolyart/Animations/Beholder/GetHit.fbx
+  artifactKey: Guid(13049e370384471a857e55bf2ab6c1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class10th (Sound)/RPGMonsterPartnersPBRPolyart/Animations/Beholder/GetHit.fbx using Guid(13049e370384471a857e55bf2ab6c1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6ab140e832727bc816fc50ce2b5954') in 0.055101 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 103
 ========================================================================
 Received Import Request.
-  Time since last request: 117.652530 seconds.
-  path: Assets/Class9th (Collider)
-  artifactKey: Guid(be45abb45bf5f82418fc250429d4b35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class9th (Collider) using Guid(be45abb45bf5f82418fc250429d4b35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d46f6f466716cce7ec0b22ffe035bb') in 0.000587 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/Class10th (Sound)/RPGMonsterPartnersPBRPolyart/Animations/Beholder/WalkLeft.fbx
+  artifactKey: Guid(f3218c7d816040de9b9bcfe80d5f77f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class10th (Sound)/RPGMonsterPartnersPBRPolyart/Animations/Beholder/WalkLeft.fbx using Guid(f3218c7d816040de9b9bcfe80d5f77f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e716d7f44431c6fe6d2444486e133c8f') in 0.026583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Class10th (Sound)/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Run.fbx
+  artifactKey: Guid(cabb129121944e2dbd3866b6deba6b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class10th (Sound)/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Run.fbx using Guid(cabb129121944e2dbd3866b6deba6b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc89c91d70e13a0bff7177116e7e5d53') in 0.028806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Class10th (Sound)/RPGMonsterPartnersPBRPolyart/Animations/Beholder/IdleBattle.fbx
+  artifactKey: Guid(d7a9297b2394411eb911484794b32687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class10th (Sound)/RPGMonsterPartnersPBRPolyart/Animations/Beholder/IdleBattle.fbx using Guid(d7a9297b2394411eb911484794b32687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29656d885a2ef1bf1ac899930c13ac24') in 0.023633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time since last request: 12.782393 seconds.
+  path: Assets/Class11th (RayCast)
+  artifactKey: Guid(8b36c14f40796354da126757ff644690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (RayCast) using Guid(8b36c14f40796354da126757ff644690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65c6c8660d229d1a8fd33b164c46037') in 0.000576 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 9.272368 seconds.
-  path: Assets/Class10th ()
-  artifactKey: Guid(d5282360240d1ad41be61c2887962130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class10th () using Guid(d5282360240d1ad41be61c2887962130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b56054705311b8f29ecb5f1c267e69') in 0.000374 seconds
+  Time since last request: 5.592520 seconds.
+  path: Assets/Class11th (RayCast)/Scenes
+  artifactKey: Guid(c318ac40532f73f47a3c3c4563b9a198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (RayCast)/Scenes using Guid(c318ac40532f73f47a3c3c4563b9a198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd802ecb14f6014d322e65f3e0d3f54') in 0.000374 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 7.172776 seconds.
-  path: Assets/Class10th ()/Scenes
-  artifactKey: Guid(394cbc95a8d8f9749b75b87ccdac9d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class10th ()/Scenes using Guid(394cbc95a8d8f9749b75b87ccdac9d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8988da55a240d3de8b45b5f5a14e56') in 0.000368 seconds
+  Time since last request: 4.712046 seconds.
+  path: Assets/Class11th (RayCast)/Scenes/Game.unity
+  artifactKey: Guid(61d93a9eea452644d8caf6623e741c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (RayCast)/Scenes/Game.unity using Guid(61d93a9eea452644d8caf6623e741c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833e0f86dc2cc47e45b32bbf8051b3b4') in 0.000382 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 5.983405 seconds.
-  path: Assets/Class10th ()/Scenes/Game.unity
-  artifactKey: Guid(40dc2f6760765ba42924e9466ccd59bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class10th ()/Scenes/Game.unity using Guid(40dc2f6760765ba42924e9466ccd59bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388a574e34dbf43cd63b9a3eded97f90') in 0.000399 seconds
+  Time since last request: 399.702348 seconds.
+  path: Assets/Class11th (RayCast)/Low Poly Bed Room Furniture PBR/Assets
+  artifactKey: Guid(58422374e7ea8f440bc47f0d5e251159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (RayCast)/Low Poly Bed Room Furniture PBR/Assets using Guid(58422374e7ea8f440bc47f0d5e251159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cfbe71bbbf80e1d65d776920201d39') in 0.000513 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 652.327585 seconds.
-  path: Assets/Class10th (Sound)/ShootingSound
-  artifactKey: Guid(4aead2d562c098b48a6eda1932a16d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class10th (Sound)/ShootingSound using Guid(4aead2d562c098b48a6eda1932a16d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd74d844436fe27d934ee0663fbc6ff') in 0.000419 seconds
+  Time since last request: 1.590045 seconds.
+  path: Assets/Class11th (RayCast)/Low Poly Bed Room Furniture PBR/Assets/Prefab
+  artifactKey: Guid(535bd389c65d4864e916d5867af0da42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (RayCast)/Low Poly Bed Room Furniture PBR/Assets/Prefab using Guid(535bd389c65d4864e916d5867af0da42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca28a4090045879cc745b679860c51b') in 0.000441 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.098054 seconds.
-  path: Assets/Class10th (Sound)/ShootingSound/cannon_01.wav
-  artifactKey: Guid(af66162561d2eed40ad49268cab318bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class10th (Sound)/ShootingSound/cannon_01.wav using Guid(af66162561d2eed40ad49268cab318bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fcb320dfd6853214daafdc1b18b77e') in 0.032099 seconds
+  Time since last request: 0.098677 seconds.
+  path: Assets/Class11th (RayCast)/Low Poly Bed Room Furniture PBR/Assets/Prefab/Almirah_low.prefab
+  artifactKey: Guid(466b178cd356e914db5d739249226df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (RayCast)/Low Poly Bed Room Furniture PBR/Assets/Prefab/Almirah_low.prefab using Guid(466b178cd356e914db5d739249226df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743abc39d4e1c3e03c76bacdfd516b72') in 0.237994 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004550 seconds.
-  path: Assets/Class10th (Sound)/ShootingSound/electronic_01.wav
-  artifactKey: Guid(a245ee5d75348c84a89ffb7992f1dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class10th (Sound)/ShootingSound/electronic_01.wav using Guid(a245ee5d75348c84a89ffb7992f1dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd416798c3c7a0579ca5315c3fc469c') in 0.014499 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/Class11th (RayCast)/Low Poly Bed Room Furniture PBR/Assets/Prefab/Dressing_Table.prefab
+  artifactKey: Guid(c3f62e14475a33e4ba04f1ec6734278d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class11th (RayCast)/Low Poly Bed Room Furniture PBR/Assets/Prefab/Dressing_Table.prefab using Guid(c3f62e14475a33e4ba04f1ec6734278d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13275eab22e2453597922a3b3c79d41b') in 0.042383 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Class10th (Sound)/ShootingSound/magic_01.wav
-  artifactKey: Guid(b1b9c1f0ea1fcae439ed1a4d44ff05fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class10th (Sound)/ShootingSound/magic_01.wav using Guid(b1b9c1f0ea1fcae439ed1a4d44ff05fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b48da6e4fcc260878330da714204636') in 0.017525 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Class10th (Sound)/ShootingSound/magic_02.wav
-  artifactKey: Guid(78419f98379502c4dbfb2774bc94e7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class10th (Sound)/ShootingSound/magic_02.wav using Guid(78419f98379502c4dbfb2774bc94e7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92f3078ebbdda704896d07295e8abc2') in 0.015214 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Class10th (Sound)/ShootingSound/card.wav
-  artifactKey: Guid(a58e438b7cfa445498120af0e6169082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class10th (Sound)/ShootingSound/card.wav using Guid(a58e438b7cfa445498120af0e6169082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6e3efa6863b40f128b084279d7e509') in 0.013114 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Class10th (Sound)/ShootingSound/machine_gun.wav
-  artifactKey: Guid(3061c7b9b32d894478e4126ccce25ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class10th (Sound)/ShootingSound/machine_gun.wav using Guid(3061c7b9b32d894478e4126ccce25ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48d66ac0591ee8a20bdf862b879ed94') in 0.011928 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Class10th (Sound)/ShootingSound/electronic_02.wav
-  artifactKey: Guid(ab297b593498a6e47ba84de770477cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class10th (Sound)/ShootingSound/electronic_02.wav using Guid(ab297b593498a6e47ba84de770477cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd36623d349484a07eb3b6994ac9c0eb') in 0.013673 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 46
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
 AssetImportWorker is now disconnected from the server
