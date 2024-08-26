@@ -15,7 +15,7 @@ C:/Users/Administrator/Desktop/UnityGame/Game
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-51684
+50426
 Successfully changed project path to: C:/Users/Administrator/Desktop/UnityGame/Game
 C:/Users/Administrator/Desktop/UnityGame/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Administrator/Desktop/UnityGame/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10356] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 3518206128 [EditorId] 3518206128 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15276] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 2820389163 [EditorId] 2820389163 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10356] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 3518206128 [EditorId] 3518206128 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15276] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 2820389163 [EditorId] 2820389163 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 9.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.30f1 (70558241b701)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.007239 seconds.
-- Loaded All Assemblies, in  0.435 seconds
+Registered in 0.005304 seconds.
+- Loaded All Assemblies, in  0.335 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.316 seconds
-Domain Reload Profiling: 751ms
-	BeginReloadAssembly (139ms)
+- Finished resetting the current domain, in  0.257 seconds
+Domain Reload Profiling: 591ms
+	BeginReloadAssembly (106ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (164ms)
-		LoadAssemblies (139ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (106ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (161ms)
-			TypeCache.Refresh (159ms)
-				TypeCache.ScanAssembly (143ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (121ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (316ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (257ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (250ms)
+		SetupLoadedEditorAssemblies (204ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (171ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
+			ProcessInitializeOnLoadAttributes (138ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 751ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.770 seconds
-Refreshing native plugins compatible for Editor in 3.30 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.551 seconds
+Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.649 seconds
-Domain Reload Profiling: 1419ms
-	BeginReloadAssembly (184ms)
+- Finished resetting the current domain, in  0.485 seconds
+Domain Reload Profiling: 1036ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (501ms)
-		LoadAssemblies (366ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (253ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (242ms)
-			TypeCache.Refresh (215ms)
-				TypeCache.ScanAssembly (185ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (650ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (148ms)
+				TypeCache.ScanAssembly (135ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (485ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (463ms)
+		SetupLoadedEditorAssemblies (348ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (363ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (275ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (57.9 KB). Loaded Objects now: 3584.
-Memory consumption went from 127.7 MB to 127.7 MB.
-Total: 5.286300 ms (FindLiveObjects: 0.369800 ms CreateObjectMapping: 0.332200 ms MarkObjects: 4.413500 ms  DeleteObjects: 0.169300 ms)
+Unloading 3118 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.9 KB). Loaded Objects now: 3589.
+Memory consumption went from 127.7 MB to 127.6 MB.
+Total: 4.946100 ms (FindLiveObjects: 0.401800 ms CreateObjectMapping: 0.380200 ms MarkObjects: 4.000900 ms  DeleteObjects: 0.162000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,36 +183,196 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 225.365305 seconds.
-  path: Assets/Class10th (Sound)/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Attack03.fbx
-  artifactKey: Guid(e9a3d959a28a4f02940e36a70434d669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class10th (Sound)/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Attack03.fbx using Guid(e9a3d959a28a4f02940e36a70434d669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90726976bc5a5fa0b6321447f150b92') in 0.208388 seconds
+  Time since last request: 2544.653279 seconds.
+  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_16x32.png
+  artifactKey: Guid(f51c40299c6f2c4438629191492adad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_16x32.png using Guid(f51c40299c6f2c4438629191492adad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affdd9d23e1df6ae8d141636c834d5db') in 0.225660 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 103
+Number of asset objects unloaded after import = 32
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Class10th (Sound)/RPGMonsterPartnersPBRPolyart/Animations/Beholder/IdleNormal.fbx
-  artifactKey: Guid(1125a2cce46b489590671831483c9b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class10th (Sound)/RPGMonsterPartnersPBRPolyart/Animations/Beholder/IdleNormal.fbx using Guid(1125a2cce46b489590671831483c9b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433a25865ae37ee932aa73b7b6813bba') in 0.045108 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_16x32.png
+  artifactKey: Guid(45d1fa6ee4f9d934883e0e17e7ece524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_16x32.png using Guid(45d1fa6ee4f9d934883e0e17e7ece524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d67985de686628a61b1a285a1fa0be') in 0.111039 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 103
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/parallax_cave_holes_greenish.png
+  artifactKey: Guid(6aac80ca10b590b40a968217d5092118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/parallax_cave_holes_greenish.png using Guid(6aac80ca10b590b40a968217d5092118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de08f5de43d86da614f9ca80e0927e4') in 0.033889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/Class10th (Sound)/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Taunting.fbx
-  artifactKey: Guid(7a2c4609e61b43348d3f222904e09986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class10th (Sound)/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Taunting.fbx using Guid(7a2c4609e61b43348d3f222904e09986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0838215315de6a1bde263c68458cd1') in 0.028874 seconds
+  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/objects_fountain_animated.png
+  artifactKey: Guid(ff5f7226ed4a9ad4c9253b92fad091c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/objects_fountain_animated.png using Guid(ff5f7226ed4a9ad4c9253b92fad091c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae33c37cd0f2de5ebab69d8ac328fc0') in 0.032064 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 103
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Class10th (Sound)/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Attack02RPT.fbx
-  artifactKey: Guid(b1522de0f5934d5a8f7086ec995cab43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class10th (Sound)/RPGMonsterPartnersPBRPolyart/Animations/Beholder/Attack02RPT.fbx using Guid(b1522de0f5934d5a8f7086ec995cab43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950d9b8b6e79e74a3bc7a437281ea502') in 0.026958 seconds
+  Time since last request: 0.000013 seconds.
+  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/objects_bigchest_animated.png
+  artifactKey: Guid(19f60735a26b44949acfda90d4d794df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/objects_bigchest_animated.png using Guid(19f60735a26b44949acfda90d4d794df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1aa443c200644e1fb869a99562ce314') in 0.059062 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 103
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_other.png
+  artifactKey: Guid(6d45fe9eed71bde49be5d6f24c33288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_other.png using Guid(6d45fe9eed71bde49be5d6f24c33288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aea505e150fdcbcaaed742554faef51') in 0.025062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/parallax_bg_cave_blueish.png
+  artifactKey: Guid(5446fb203ea05cf439a2a482dbe9bc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/parallax_bg_cave_blueish.png using Guid(5446fb203ea05cf439a2a482dbe9bc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b412b2a3b7ee6b2709aae9fb17040157') in 0.029125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_32x32.png
+  artifactKey: Guid(325eba7eb0eae3d49a8dd42758ec7336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_32x32.png using Guid(325eba7eb0eae3d49a8dd42758ec7336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd885a26613c3ad6dcd8ca9efa588e04') in 0.031904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/cave_tileset.png
+  artifactKey: Guid(894640e3f9d838a4499398609b715c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/cave_tileset.png using Guid(894640e3f9d838a4499398609b715c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf5268bd4bc8c4e6825803006c7702d') in 0.225221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 118
+========================================================================
+Received Import Request.
+  Time since last request: 0.971861 seconds.
+  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-dark.png
+  artifactKey: Guid(3a0e0e9389f595442bff65be2c3c7c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-dark.png using Guid(3a0e0e9389f595442bff65be2c3c7c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6093ce5a2437a027757cdacda3ee11') in 0.115746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/water_animated.png
+  artifactKey: Guid(73398d231c2af4d46bd9cf4c231f519e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/water_animated.png using Guid(73398d231c2af4d46bd9cf4c231f519e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9f3619b5df7e356c0a49cae0338915') in 0.016824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-lightbrown.png
+  artifactKey: Guid(b5ee228e5acd4cd4ba5534dd912be2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-lightbrown.png using Guid(b5ee228e5acd4cd4ba5534dd912be2ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6639bb9fc394fdcca18476ed9401639d') in 0.107209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-grey.png
+  artifactKey: Guid(729fe4629769c0040b3695e91e73f791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-grey.png using Guid(729fe4629769c0040b3695e91e73f791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45fb78d975cf8997211db3b9e081998') in 0.129643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 74
+========================================================================
+Received Import Request.
+  Time since last request: 282.987461 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline None.mat
+  artifactKey: Guid(ab43b5449aabc884faa9439a63aa2035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline None.mat using Guid(ab43b5449aabc884faa9439a63aa2035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e0fcfe61479c7a915d8dfad9bd7f3a') in 0.068757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Trans.mat
+  artifactKey: Guid(6320d51ee137b4e42b6cb01f30c65ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Trans.mat using Guid(6320d51ee137b4e42b6cb01f30c65ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82be13d12db0b84806c5ffd786c8ee0b') in 0.032391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Yellow.mat
+  artifactKey: Guid(bb6f9bec926368b4eb8e5590da43eee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Yellow.mat using Guid(bb6f9bec926368b4eb8e5590da43eee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d9e6eab15d794aca46ae8fb4974095') in 0.007598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline White.mat
+  artifactKey: Guid(fa6817dfb0f48b946aed8e1043559b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline White.mat using Guid(fa6817dfb0f48b946aed8e1043559b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ce1f44fee719963481ba32a52c5c22') in 0.012493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.242693 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Paper.png
+  artifactKey: Guid(615ecf391b0ba0b40a9c3882ac5e6afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Paper.png using Guid(615ecf391b0ba0b40a9c3882ac5e6afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc19f654439265c927e2f96b259de0e') in 0.014145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Wood Log.png
+  artifactKey: Guid(0e1ccb64303778e4081913a6d9cca677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Wood Log.png using Guid(0e1ccb64303778e4081913a6d9cca677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a03800787d247eb2ce97c1646e21ca2') in 0.012884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Wool.png
+  artifactKey: Guid(046f821c76a004e4c91b9f27ee906194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Wool.png using Guid(046f821c76a004e4c91b9f27ee906194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d63ac24ab0e1a373ae44c9783e4e39') in 0.014264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.739233 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Book 3.png
+  artifactKey: Guid(6b22156af64babe4f9bff6441c5b942f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Book 3.png using Guid(6b22156af64babe4f9bff6441c5b942f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f30d8c4e61c003994c6066617f867c') in 0.014360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Crate.png
+  artifactKey: Guid(af91b161f106d9e46b3704f05a3ab63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Crate.png using Guid(af91b161f106d9e46b3704f05a3ab63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f5c2eaf5fe4b9586a9bef0949d662d') in 0.021535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Silver Key.png
+  artifactKey: Guid(17c2d0550f9d2f9418f458279eb57c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Silver Key.png using Guid(17c2d0550f9d2f9418f458279eb57c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd007ddda7ac14a515c557487e7049b2') in 0.028923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Envolop.png
+  artifactKey: Guid(745c230e29c9393469cb614114618353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Envolop.png using Guid(745c230e29c9393469cb614114618353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7426f8018b2d9a520c1a202c2e9493f7') in 0.072994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
 AssetImportWorker is now disconnected from the server
