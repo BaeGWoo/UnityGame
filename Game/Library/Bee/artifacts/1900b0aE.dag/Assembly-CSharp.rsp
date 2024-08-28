@@ -359,6 +359,8 @@
 "Assets/Class11th (RayCast)/Scripts/InterfaceManager.cs"
 "Assets/Class11th (RayCast)/Scripts/Mouse.cs"
 "Assets/Class11th (RayCast)/Scripts/Table.cs"
+"Assets/Class13th (Light)/Scripts/Parallax.cs"
+"Assets/Class13th (Light)/Scripts/Spawner.cs"
 "Assets/Class1th (Gizmo)/Quirky Series Ultimate/_Scripts/QuirkySeriesDemo.cs"
 "Assets/Class1th (Gizmo)/Quirky Series Ultimate/_Scripts/RotateOnScroll.cs"
 "Assets/Class2th (Script)/Scripts/Dinosaur.cs"
