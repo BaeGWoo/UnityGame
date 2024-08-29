@@ -15,7 +15,7 @@ C:/Users/Administrator/Desktop/UnityGame/Game
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-50507
+65033
 Successfully changed project path to: C:/Users/Administrator/Desktop/UnityGame/Game
 C:/Users/Administrator/Desktop/UnityGame/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Administrator/Desktop/UnityGame/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7112] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 2974316211 [EditorId] 2974316211 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6784] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 142727563 [EditorId] 142727563 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7112] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 2974316211 [EditorId] 2974316211 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6784] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 142727563 [EditorId] 142727563 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 5.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.30f1 (70558241b701)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.005564 seconds.
-- Loaded All Assemblies, in  0.317 seconds
+Registered in 0.005141 seconds.
+- Loaded All Assemblies, in  0.298 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.302 seconds
-Domain Reload Profiling: 619ms
-	BeginReloadAssembly (100ms)
+- Finished resetting the current domain, in  0.243 seconds
+Domain Reload Profiling: 541ms
+	BeginReloadAssembly (93ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (130ms)
-		LoadAssemblies (99ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (93ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (128ms)
-			TypeCache.Refresh (127ms)
-				TypeCache.ScanAssembly (113ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (106ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (303ms)
+	FinalizeReload (243ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (249ms)
+		SetupLoadedEditorAssemblies (193ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
+			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (175ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
+			ProcessInitializeOnLoadAttributes (131ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 619ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.560 seconds
-Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.511 seconds
+Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.513 seconds
-Domain Reload Profiling: 1073ms
-	BeginReloadAssembly (138ms)
+- Finished resetting the current domain, in  0.496 seconds
+Domain Reload Profiling: 1008ms
+	BeginReloadAssembly (133ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (31ms)
+	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (348ms)
-		LoadAssemblies (267ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (231ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (167ms)
-			TypeCache.Refresh (144ms)
-				TypeCache.ScanAssembly (132ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (119ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (513ms)
+	FinalizeReload (497ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (375ms)
+		SetupLoadedEditorAssemblies (366ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (299ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (288ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (58.0 KB). Loaded Objects now: 3593.
-Memory consumption went from 130.9 MB to 130.8 MB.
-Total: 4.324800 ms (FindLiveObjects: 0.336300 ms CreateObjectMapping: 0.306500 ms MarkObjects: 3.510800 ms  DeleteObjects: 0.169000 ms)
+Unloading 3130 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.8 KB). Loaded Objects now: 3601.
+Memory consumption went from 130.9 MB to 130.9 MB.
+Total: 2.610200 ms (FindLiveObjects: 0.268200 ms CreateObjectMapping: 0.169600 ms MarkObjects: 2.077900 ms  DeleteObjects: 0.093900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,116 +183,148 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 514.988355 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Materials/SpriteProps_Red.mat
-  artifactKey: Guid(52e4708390753da4d9c262a4a102d958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Materials/SpriteProps_Red.mat using Guid(52e4708390753da4d9c262a4a102d958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8da6f9f47df56acd7baeb880c8e40cd') in 0.102900 seconds
+  Time since last request: 7753.759141 seconds.
+  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-grey.png
+  artifactKey: Guid(729fe4629769c0040b3695e91e73f791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/trees-trunk-grey.png using Guid(729fe4629769c0040b3695e91e73f791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bddc0d45810f4146c80ae391fd2cda') in 0.301190 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 74
 ========================================================================
 Received Import Request.
-  Time since last request: 1.138949 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/Cube_Regular.fbx
-  artifactKey: Guid(8a49eaea80bc31443aa6d3e797e4881a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/Cube_Regular.fbx using Guid(8a49eaea80bc31443aa6d3e797e4881a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0167de8baec2e244327b7a102acb7888') in 0.041494 seconds
+  Time since last request: 0.834958 seconds.
+  path: Assets/MainGame/Cave Platformer Tileset/Monster sprite sheets/scorpion-red-sheet-x1.png
+  artifactKey: Guid(5eb7000a73c6b024aad4edd4a9d1bac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Cave Platformer Tileset/Monster sprite sheets/scorpion-red-sheet-x1.png using Guid(5eb7000a73c6b024aad4edd4a9d1bac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83db286e5b3dfb84958204284498de7') in 0.062204 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 27
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/Hazard_Bottle.fbx
-  artifactKey: Guid(8853f3c912d681e4fa33865caa20759b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/Hazard_Bottle.fbx using Guid(8853f3c912d681e4fa33865caa20759b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d81f506474cae036534b91e1faf9bab') in 0.038408 seconds
+  Time since last request: 17.816297 seconds.
+  path: Assets/MainGame/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline Yellow.mat
+  artifactKey: Guid(edc31919a4a0caa4eafbbd6eb17dfc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline Yellow.mat using Guid(edc31919a4a0caa4eafbbd6eb17dfc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190b3a3bbfeed4536ff652c54705d63b') in 0.047157 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/PipeMedium.fbx
-  artifactKey: Guid(a271882f411f3ec45bab57819a658571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/PipeMedium.fbx using Guid(a271882f411f3ec45bab57819a658571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b018776054148f0e8d7eab762584405') in 0.023008 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/MainGame/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Yellow.mat
+  artifactKey: Guid(bb6f9bec926368b4eb8e5590da43eee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Yellow.mat using Guid(bb6f9bec926368b4eb8e5590da43eee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235ae8a4e93198060bcd528faa0ca631') in 0.009151 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 2.117714 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Textures/Assets_Red.png
-  artifactKey: Guid(e34010f3f7339304997ed1b388bec9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Textures/Assets_Red.png using Guid(e34010f3f7339304997ed1b388bec9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e075a8e106970e17638411bf5fafae0') in 0.039333 seconds
+  Time since last request: 89.701041 seconds.
+  path: Assets/Class5th (Animation)/Post Box/Materials/wood.mat
+  artifactKey: Guid(49ea363bdd9fbf6489869a59b20b30a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class5th (Animation)/Post Box/Materials/wood.mat using Guid(49ea363bdd9fbf6489869a59b20b30a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a95be103ed99202216ecc20804cc96c') in 0.021285 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Textures/Lightmap_Blue.png
-  artifactKey: Guid(dcea81c3da0e12342928cc2424f037ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Textures/Lightmap_Blue.png using Guid(dcea81c3da0e12342928cc2424f037ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f285136e8c3b1033062ff1b0646633bb') in 0.012107 seconds
+  path: Assets/Class8th (Instantiate)/Polygon-Lite Survival Collection/Materials/Yello.mat
+  artifactKey: Guid(2b72f54e9445c2c4c9758f68df5ef9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class8th (Instantiate)/Polygon-Lite Survival Collection/Materials/Yello.mat using Guid(2b72f54e9445c2c4c9758f68df5ef9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799806b72a47de170e829298d50d5466') in 0.017939 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Textures/Lightmap_Purple.png
-  artifactKey: Guid(ea442db4af3b4624c9060de21757122c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Textures/Lightmap_Purple.png using Guid(ea442db4af3b4624c9060de21757122c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2299cc87a5ecfe2d2646f29d2ed77a94') in 0.010924 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.790518 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Purple/Cube_Regular_Purple.prefab
-  artifactKey: Guid(a9d541e09f51fb64cb716f1aab90a6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Purple/Cube_Regular_Purple.prefab using Guid(a9d541e09f51fb64cb716f1aab90a6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25247a9ca1771212fab3eb2c28871217') in 0.011504 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Purple/Hazard_Bottle_Purple.prefab
-  artifactKey: Guid(6f2312a195acd104e9dcddfe0948dc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Purple/Hazard_Bottle_Purple.prefab using Guid(6f2312a195acd104e9dcddfe0948dc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30992e9eff62e256cae08e47db85ac78') in 0.012230 seconds
+  path: Assets/Class4th (Translate)/Understone/Free Aircraft Pack/Materials/YellowD78B1E.mat
+  artifactKey: Guid(24620a2f936eafd4f9aa143575733c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class4th (Translate)/Understone/Free Aircraft Pack/Materials/YellowD78B1E.mat using Guid(24620a2f936eafd4f9aa143575733c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79268d923365349c757d0e597a627f6') in 0.014316 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 9.588161 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Red/Cube_Regular_Red.prefab
-  artifactKey: Guid(b13cfb50b6e70fe48bb91b69f1e60b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Red/Cube_Regular_Red.prefab using Guid(b13cfb50b6e70fe48bb91b69f1e60b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876422d421fedce511e62d15e0ed11d1') in 0.013568 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Class13th (Light)/NaaszArts/FantasyHouseBundle/Materials/Wood2.mat
+  artifactKey: Guid(8682319e93479472aae6f11f4b6585ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class13th (Light)/NaaszArts/FantasyHouseBundle/Materials/Wood2.mat using Guid(8682319e93479472aae6f11f4b6585ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c748c38a197627fc7bba75ea44c92d4a') in 0.014607 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.012356 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Red/PipeJointMedium_Red.prefab
-  artifactKey: Guid(12064263941feb547b694aeb92cb5f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Red/PipeJointMedium_Red.prefab using Guid(12064263941feb547b694aeb92cb5f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a054bdc104c14bc6f3d1fa8c1cb48b') in 0.013488 seconds
+  Time since last request: 2.397932 seconds.
+  path: Assets/Class13th (Light)/NaaszArts/FantasyHouseBundle/Materials/Walls.mat
+  artifactKey: Guid(3709864575a3d4b56b002a6721ba811e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class13th (Light)/NaaszArts/FantasyHouseBundle/Materials/Walls.mat using Guid(3709864575a3d4b56b002a6721ba811e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903f24457a848112d8feefb45afd8b3d') in 0.011654 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 7.309494 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Blue/Cube_Regular_Blue.prefab
-  artifactKey: Guid(5f87f64390a7ce245b7be1ff334b8e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Blue/Cube_Regular_Blue.prefab using Guid(5f87f64390a7ce245b7be1ff334b8e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828666fa72e546e096f349df87cfffd6') in 0.015169 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/Class4th (Translate)/Understone/Free Aircraft Pack/Materials/WhiteCCCCCC.mat
+  artifactKey: Guid(b00a9d5215eaca544a10ccd4b2e8aa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class4th (Translate)/Understone/Free Aircraft Pack/Materials/WhiteCCCCCC.mat using Guid(b00a9d5215eaca544a10ccd4b2e8aa10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cadebdec9fe9eef43c50f7aff12008') in 0.012538 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 7.088941 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Green/Cube_Regular_Green.prefab
-  artifactKey: Guid(680d803e50bd36c4fb1ee1be025f8e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Green/Cube_Regular_Green.prefab using Guid(680d803e50bd36c4fb1ee1be025f8e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0be04b041ef6987c6376affc598584b') in 0.013056 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/Class13th (Light)/NaaszArts/FantasyHouseBundle/Materials/WindowPanes.mat
+  artifactKey: Guid(4f72438ebaef6468b8e5013276be2a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class13th (Light)/NaaszArts/FantasyHouseBundle/Materials/WindowPanes.mat using Guid(4f72438ebaef6468b8e5013276be2a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1764aee309a5b3a873e99126b2cc98e4') in 0.012235 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 7.947487 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Yellow/Cube_Regular_Yellow.prefab
-  artifactKey: Guid(2a5e8e6c45d6960479235c3f704b108a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Yellow/Cube_Regular_Yellow.prefab using Guid(2a5e8e6c45d6960479235c3f704b108a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1bc64f840a5ba0195ca5d3df8a58a4') in 0.014133 seconds
+  Time since last request: 18.472565 seconds.
+  path: Assets/MainGame/Tale Monster Cube Env/Meshes/Tree_Cut.asset
+  artifactKey: Guid(79ff099a5ee8ba344b929353a7276dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Tale Monster Cube Env/Meshes/Tree_Cut.asset using Guid(79ff099a5ee8ba344b929353a7276dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92be343b6968df7ca1d35707ecf425a5') in 0.023886 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MainGame/Tale Monster Cube Env/Meshes/Wood_bridge.asset
+  artifactKey: Guid(867c81b0871029c4cbb84fd942cb26b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Tale Monster Cube Env/Meshes/Wood_bridge.asset using Guid(867c81b0871029c4cbb84fd942cb26b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3128aac99b1924f08e7c9773db686f') in 0.013369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MainGame/Tale Monster Cube Env/Meshes/Tree_low_2.asset
+  artifactKey: Guid(ec3e469d939eef9479447917347efcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Tale Monster Cube Env/Meshes/Tree_low_2.asset using Guid(ec3e469d939eef9479447917347efcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ce814f06bf536129d1f69f3a78ed93') in 0.022688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Class13th (Light)/NaaszArts/FantasyHouseBundle/Meshes/FantasyHosue.fbx
+  artifactKey: Guid(07a42021f61c24083b53d8c4d35297a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class13th (Light)/NaaszArts/FantasyHouseBundle/Meshes/FantasyHosue.fbx using Guid(07a42021f61c24083b53d8c4d35297a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0dffdf27b43afd1282c00d6614ec39') in 0.086878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 1321.177559 seconds.
+  path: Assets/Class1th (Gizmo)/Quirky Series Ultimate/FREE/Prefabs/Muskrat.prefab
+  artifactKey: Guid(8cb75dc2fdd63734988b8358f1314d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class1th (Gizmo)/Quirky Series Ultimate/FREE/Prefabs/Muskrat.prefab using Guid(8cb75dc2fdd63734988b8358f1314d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d8227aeeb2cff98d988e7938bdf098') in 0.307334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 128
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Class1th (Gizmo)/Quirky Series Ultimate/FREE/Prefabs/Squid.prefab
+  artifactKey: Guid(818c5a1ba0d9810439f11299463f2294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class1th (Gizmo)/Quirky Series Ultimate/FREE/Prefabs/Squid.prefab using Guid(818c5a1ba0d9810439f11299463f2294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0211ca6e990f76aee7c74ed8119d1485') in 0.139957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 142
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Class1th (Gizmo)/Quirky Series Ultimate/FREE/Prefabs/Taipan.prefab
+  artifactKey: Guid(5b5c678f31981e34f9122b87217da1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class1th (Gizmo)/Quirky Series Ultimate/FREE/Prefabs/Taipan.prefab using Guid(5b5c678f31981e34f9122b87217da1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9f00fda87f620ffe664e165d4d60fa') in 0.132551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 124
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
 AssetImportWorker is now disconnected from the server
