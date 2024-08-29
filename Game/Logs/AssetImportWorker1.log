@@ -15,7 +15,7 @@ C:/Users/Administrator/Desktop/UnityGame/Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65357
+50507
 Successfully changed project path to: C:/Users/Administrator/Desktop/UnityGame/Game
 C:/Users/Administrator/Desktop/UnityGame/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Administrator/Desktop/UnityGame/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5388] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 1195282550 [EditorId] 1195282550 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12260] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 3191088453 [EditorId] 3191088453 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5388] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 1195282550 [EditorId] 1195282550 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12260] Host "[IP] 192.168.0.62 [Port] 0 [Flags] 2 [Guid] 3191088453 [EditorId] 3191088453 [Version] 1048832 [Id] WindowsEditor(7,I-06) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 5.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.30f1 (70558241b701)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.006241 seconds.
-- Loaded All Assemblies, in  0.324 seconds
+Registered in 0.007361 seconds.
+- Loaded All Assemblies, in  0.387 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.244 seconds
-Domain Reload Profiling: 569ms
-	BeginReloadAssembly (100ms)
+- Finished resetting the current domain, in  0.264 seconds
+Domain Reload Profiling: 650ms
+	BeginReloadAssembly (114ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (125ms)
-		LoadAssemblies (99ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (114ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (123ms)
-			TypeCache.Refresh (122ms)
-				TypeCache.ScanAssembly (109ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (138ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (245ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (265ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (195ms)
+		SetupLoadedEditorAssemblies (207ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (130ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 569ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.548 seconds
-Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.592 seconds
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.497 seconds
-Domain Reload Profiling: 1044ms
-	BeginReloadAssembly (144ms)
+- Finished resetting the current domain, in  0.499 seconds
+Domain Reload Profiling: 1090ms
+	BeginReloadAssembly (157ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (41ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (316ms)
-		LoadAssemblies (233ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (351ms)
+		LoadAssemblies (281ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (162ms)
-			TypeCache.Refresh (137ms)
-				TypeCache.ScanAssembly (125ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (497ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (133ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (499ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (366ms)
+		SetupLoadedEditorAssemblies (365ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (46ms)
-			ProcessInitializeOnLoadAttributes (291ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (57.8 KB). Loaded Objects now: 3593.
-Memory consumption went from 130.9 MB to 130.8 MB.
-Total: 2.792300 ms (FindLiveObjects: 0.242000 ms CreateObjectMapping: 0.196800 ms MarkObjects: 2.262700 ms  DeleteObjects: 0.090100 ms)
+Unloading 33 unused Assets / (58.4 KB). Loaded Objects now: 3593.
+Memory consumption went from 130.8 MB to 130.8 MB.
+Total: 4.529700 ms (FindLiveObjects: 0.277000 ms CreateObjectMapping: 0.297300 ms MarkObjects: 3.816500 ms  DeleteObjects: 0.138100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,442 +183,74 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8083.994856 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Materials/SpriteProps_Green.mat
-  artifactKey: Guid(1a63d72c6152ef54493960acf859fc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Materials/SpriteProps_Green.mat using Guid(1a63d72c6152ef54493960acf859fc4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ab79583bfaecdadf3f61e6ff2dd593') in 0.102807 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.061243 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/Barrel_Small.fbx
-  artifactKey: Guid(4d7240e7812980f478cf3d2da1aa867b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/Barrel_Small.fbx using Guid(4d7240e7812980f478cf3d2da1aa867b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62163c8be9acc6926e12bc74dd5389f4') in 0.036084 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/Cube_Large.fbx
-  artifactKey: Guid(98631f972d2925141a2dcee745a587f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/Cube_Large.fbx using Guid(98631f972d2925141a2dcee745a587f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791e12278b54e2e6e9a32556787f02ce') in 0.015841 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/Cube_Small.fbx
-  artifactKey: Guid(3a317b573d2a8244fa3259cbaca7c5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/Cube_Small.fbx using Guid(3a317b573d2a8244fa3259cbaca7c5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1abad6d98565c73e3cfa98b92b1712e') in 0.017259 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/Hazard_Bottle.fbx
-  artifactKey: Guid(8853f3c912d681e4fa33865caa20759b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/Hazard_Bottle.fbx using Guid(8853f3c912d681e4fa33865caa20759b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ada8f9afeb66d5e8c7ba68ed0f8ded0') in 0.015904 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/PipeSmall.fbx
-  artifactKey: Guid(28962e802dc07ed4b9bad6793f36b32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/PipeSmall.fbx using Guid(28962e802dc07ed4b9bad6793f36b32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3ae77fa6f3141b227192c78a967c51') in 0.017405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/Monitor.fbx
-  artifactKey: Guid(62e6c33a1788778409c1728e51065f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/Monitor.fbx using Guid(62e6c33a1788778409c1728e51065f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa50f2e980aff493ef11531acde7f83d') in 0.017109 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 1.729366 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpritePropsDemo/ReflectionProbe-1.exr
-  artifactKey: Guid(2a57967e1510beb43901bd3e9bb859ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpritePropsDemo/ReflectionProbe-1.exr using Guid(2a57967e1510beb43901bd3e9bb859ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4b57265a26f42027aea19241e71eb0') in 0.026691 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.961363 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Textures/Assets_Purple.png
-  artifactKey: Guid(31c6dd87ad55e264791da6f82c245bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Textures/Assets_Purple.png using Guid(31c6dd87ad55e264791da6f82c245bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b27f0c1fb0172c9336369cc67e692c2') in 0.038900 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Textures/Lightmap_Yellow.png
-  artifactKey: Guid(250a591bb1d240a42a9f23083b58f817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Textures/Lightmap_Yellow.png using Guid(250a591bb1d240a42a9f23083b58f817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b9d2930f8353abfcdfb10c12679d0f') in 0.019930 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Textures/Lightmap_Green.png
-  artifactKey: Guid(1d1faa3bc3e287240b38c7e3cb21d7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Textures/Lightmap_Green.png using Guid(1d1faa3bc3e287240b38c7e3cb21d7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49419c4ddd7439149e407255b4474f0a') in 0.011180 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.377684 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Yellow/Cube_Large_Yellow.prefab
-  artifactKey: Guid(075a9dbdf31be03428ccfd6f1e8c1729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Yellow/Cube_Large_Yellow.prefab using Guid(075a9dbdf31be03428ccfd6f1e8c1729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2633522b3d76a35b0095fc15421a565a') in 0.016012 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Yellow/Hazard_Bottle_Yellow.prefab
-  artifactKey: Guid(dbd5c20b8c0577f46a4726c6d5a37c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Yellow/Hazard_Bottle_Yellow.prefab using Guid(dbd5c20b8c0577f46a4726c6d5a37c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a11ae2fef53bd5e17cb3c29ff0406f') in 0.023118 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Yellow/Monitor_Yellow.prefab
-  artifactKey: Guid(8e8b8bef0e9378d44b81c5847816ebf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Yellow/Monitor_Yellow.prefab using Guid(8e8b8bef0e9378d44b81c5847816ebf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8004333c439f48dd8880c3ea61f14e') in 0.019156 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Yellow/PipeSmall_Yellow.prefab
-  artifactKey: Guid(cb9778996dd12004fa66e115b90733b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Yellow/PipeSmall_Yellow.prefab using Guid(cb9778996dd12004fa66e115b90733b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cac516c2094c2985ffa6b8fc8ee29a') in 0.011884 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 5.820378 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Purple/Cube_Large_Purple.prefab
-  artifactKey: Guid(d70d633346f48ad4788e771dd4551997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Purple/Cube_Large_Purple.prefab using Guid(d70d633346f48ad4788e771dd4551997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88663815295faf09c51fdff2279b282a') in 0.014616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Purple/Hazard_Bottle_Purple.prefab
-  artifactKey: Guid(6f2312a195acd104e9dcddfe0948dc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Purple/Hazard_Bottle_Purple.prefab using Guid(6f2312a195acd104e9dcddfe0948dc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c126913ac5af6b921646b336ff0314') in 0.024237 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Purple/Monitor_Purple.prefab
-  artifactKey: Guid(453ce23896e2e4d4d9fb170acabfbcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Purple/Monitor_Purple.prefab using Guid(453ce23896e2e4d4d9fb170acabfbcbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746a437729639efe144ccd06b3476a46') in 0.018452 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 13.114671 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Blue/Cube_Large_Blue.prefab
-  artifactKey: Guid(3a067ef09e75c36439746dbf04d53727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Blue/Cube_Large_Blue.prefab using Guid(3a067ef09e75c36439746dbf04d53727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890d3a2e87c054ffd9042ab6badf2036') in 0.013508 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Blue/Cube_Small_Blue.prefab
-  artifactKey: Guid(8f9acdc682b314f45b8f74950788f334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Blue/Cube_Small_Blue.prefab using Guid(8f9acdc682b314f45b8f74950788f334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a6abfabde5148bf55bab33be472c8a') in 0.012300 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Blue/Hazard_Bottle_Blue.prefab
-  artifactKey: Guid(7641ec7713947a24f800351cfb49992b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Blue/Hazard_Bottle_Blue.prefab using Guid(7641ec7713947a24f800351cfb49992b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c48515e63b48f0eb174324cb0e9612') in 0.012944 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 9.333787 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Green/Cube_Large_Green.prefab
-  artifactKey: Guid(a71ff773ea6039c4aba7d0d2c6d849ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Green/Cube_Large_Green.prefab using Guid(a71ff773ea6039c4aba7d0d2c6d849ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b5c04e57c6fdcd82c6bf122571b9a5') in 0.019804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Green/PipeJointSmall_Green.prefab
-  artifactKey: Guid(9d1f6efdc9f897f489d34bdcf9abe87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Green/PipeJointSmall_Green.prefab using Guid(9d1f6efdc9f897f489d34bdcf9abe87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f249c99939df50055076eabef0ae2a1') in 0.017199 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Green/Cube_Small_Green.prefab
-  artifactKey: Guid(82a745fbbad1c874b8a6f1e02af246a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Green/Cube_Small_Green.prefab using Guid(82a745fbbad1c874b8a6f1e02af246a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cae01668a1cd025fc2332daeaf2150d') in 0.013068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 11.323523 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Red/Cube_Large_Red.prefab
-  artifactKey: Guid(029fc81f01c385646a6cdb0127ed8334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Red/Cube_Large_Red.prefab using Guid(029fc81f01c385646a6cdb0127ed8334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052c5898f46a4592389d87add02905af') in 0.012252 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Red/PipeJointMedium_Red.prefab
-  artifactKey: Guid(12064263941feb547b694aeb92cb5f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Red/PipeJointMedium_Red.prefab using Guid(12064263941feb547b694aeb92cb5f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579ac127fb2ad175e84d9ebdf2dd5e2c') in 0.021972 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Red/PipeJointSmall_Red.prefab
-  artifactKey: Guid(94c28576f9907064095dd7cb93e76508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Red/PipeJointSmall_Red.prefab using Guid(94c28576f9907064095dd7cb93e76508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc07cbda211bb500a36f86c3442f1de7') in 0.012836 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 180.132283 seconds.
-  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets
-  artifactKey: Guid(c65d2f203290a084abfbccc857872200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets using Guid(c65d2f203290a084abfbccc857872200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aca6420b6aa168df69bf587040cbc85') in 0.000464 seconds
+  Time since last request: 472.941050 seconds.
+  path: Assets/Test
+  artifactKey: Guid(ced8bb9c5dfe9d84fb948a8a274ef255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test using Guid(ced8bb9c5dfe9d84fb948a8a274ef255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585e33825ea7177701b4d5c5b64aa8c8') in 0.002972 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.130602 seconds.
-  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_16x16.png
-  artifactKey: Guid(1291332cf12f072409f17b4e2f19c4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_16x16.png using Guid(1291332cf12f072409f17b4e2f19c4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77aff254a1a7e0544c1f89d365273908') in 0.041036 seconds
+  Time since last request: 25.925341 seconds.
+  path: Assets/MainGame/Tale Monster Cube Env/Materials/Button.mat
+  artifactKey: Guid(b889d6a4246c61649b56a0d4264b5594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Tale Monster Cube Env/Materials/Button.mat using Guid(b889d6a4246c61649b56a0d4264b5594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2bf5b6afe9f4f3dfbb4464af94a1bf') in 0.114850 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MainGame/Tale Monster Cube Env/Materials/Dirt.mat
+  artifactKey: Guid(e7e0463e6cfc5024c9ec44e8a7feec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Tale Monster Cube Env/Materials/Dirt.mat using Guid(e7e0463e6cfc5024c9ec44e8a7feec23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a73fc8291fd095294b2c2d653595fa') in 0.034739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MainGame/Tale Monster Cube Env/Materials/Window.mat
+  artifactKey: Guid(39c710ae8689ffc4e8c101d972b2190d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Tale Monster Cube Env/Materials/Window.mat using Guid(39c710ae8689ffc4e8c101d972b2190d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb269cbdbbfa950328ea72f82180151') in 0.014500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MainGame/Tale Monster Cube Env/Materials/Grass 1.mat
+  artifactKey: Guid(313169169abd70644b1a6b4149abf128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Tale Monster Cube Env/Materials/Grass 1.mat using Guid(313169169abd70644b1a6b4149abf128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f1bf30d0e1886d3c2d4c0c73bf0ca4') in 0.010267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MainGame/Tale Monster Cube Env/Materials/Sand.mat
+  artifactKey: Guid(b5f371fcc8cfcb84385db043e1239fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Tale Monster Cube Env/Materials/Sand.mat using Guid(b5f371fcc8cfcb84385db043e1239fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab70d1545011c7b3c1889d9aa69d13d4') in 0.011145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_16x16.png
-  artifactKey: Guid(c0c817d08afb9a64098b165ebb2b71cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_16x16.png using Guid(c0c817d08afb9a64098b165ebb2b71cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910e33f4a9b6327dfc26f6c5ab840fb7') in 0.039100 seconds
+  path: Assets/MainGame/Tale Monster Cube Env/Materials/Wood.mat
+  artifactKey: Guid(d994ec918c35a83469584dd64dc8b17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Tale Monster Cube Env/Materials/Wood.mat using Guid(d994ec918c35a83469584dd64dc8b17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef937235c3643fec3de40126a90a606') in 0.011808 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_32x32.png
-  artifactKey: Guid(a942e742796c2684d891a7181f310bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_32x32.png using Guid(a942e742796c2684d891a7181f310bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee642a2eee5c51d4b7fa956700e147c') in 0.023393 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/MainGame/Tale Monster Cube Env/Materials/Grass.mat
+  artifactKey: Guid(159b662d6f4972548b713589fbbfb8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Tale Monster Cube Env/Materials/Grass.mat using Guid(159b662d6f4972548b713589fbbfb8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822cc4eb294db8a3d22794340694a757') in 0.013694 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_other.png
-  artifactKey: Guid(9b722ddbaa4b73440a0f9c11af2cbe75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_blueish_other.png using Guid(9b722ddbaa4b73440a0f9c11af2cbe75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f9784017f4fc2111142ecb4ebb9468') in 0.016228 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/objects_fountain_animated.png
-  artifactKey: Guid(ff5f7226ed4a9ad4c9253b92fad091c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/objects_fountain_animated.png using Guid(ff5f7226ed4a9ad4c9253b92fad091c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f949f273d12e664d200288062fa14dd7') in 0.024341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/parallax_cave_holes_greenish.png
-  artifactKey: Guid(6aac80ca10b590b40a968217d5092118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/parallax_cave_holes_greenish.png using Guid(6aac80ca10b590b40a968217d5092118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc88af021eb58ccb799c4a11fc11601') in 0.029541 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/objects_bigchest_animated.png
-  artifactKey: Guid(19f60735a26b44949acfda90d4d794df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/objects_bigchest_animated.png using Guid(19f60735a26b44949acfda90d4d794df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58be3fb51c37028176bf9efb572e796') in 0.049076 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_other.png
-  artifactKey: Guid(6d45fe9eed71bde49be5d6f24c33288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_other.png using Guid(6d45fe9eed71bde49be5d6f24c33288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329da29960e1159be3a1c08ee1a158e7') in 0.014935 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/parallax_bg_set.png
-  artifactKey: Guid(59b19808d0cb84645905e4922a232439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/parallax_bg_set.png using Guid(59b19808d0cb84645905e4922a232439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cee3d72343b5a45394c1f41da1ed2c') in 0.037185 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_objects.png
-  artifactKey: Guid(020a14f5296ce884aa7d029304ceff5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_objects.png using Guid(020a14f5296ce884aa7d029304ceff5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a983ac7225a53108268f146ff176d129') in 0.049419 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/objects_misc.png
-  artifactKey: Guid(a960d45a01b175649839aa6c4d61341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/objects_misc.png using Guid(a960d45a01b175649839aa6c4d61341c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd6afb55195c7fbf949fe6ae45eaddf') in 0.032924 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_32x16.png
-  artifactKey: Guid(b2d15ef97656d514ab499c764e5a4fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Cave Platformer Tileset/Enviroment sprite sheets/bg_cave_greenish_32x16.png using Guid(b2d15ef97656d514ab499c764e5a4fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1fbe163555aeecea09028cdb01d031') in 0.030130 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 10.993655 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Prefabs/Environment/Rock_2.prefab
-  artifactKey: Guid(54c4f10c9f438c248996ebbefdeec087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Prefabs/Environment/Rock_2.prefab using Guid(54c4f10c9f438c248996ebbefdeec087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b199345200ec088eddf195672ca7f89d') in 0.143748 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Prefabs/Environment/Tree_low_2.prefab
-  artifactKey: Guid(49fd438cafff6364eb53cf614bfdfcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Prefabs/Environment/Tree_low_2.prefab using Guid(49fd438cafff6364eb53cf614bfdfcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cacab54993d00f0fdfd20fad6c5a9ef') in 0.024303 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Prefabs/Environment/Rocks_5.prefab
-  artifactKey: Guid(e9b551c76184320419f587ff8c3e25be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Prefabs/Environment/Rocks_5.prefab using Guid(e9b551c76184320419f587ff8c3e25be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d5368389fcd05e6cd71372d53a9e39') in 0.013605 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Prefabs/Environment/Tree_low.prefab
-  artifactKey: Guid(32e887198ec03624a8a641266f110843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Prefabs/Environment/Tree_low.prefab using Guid(32e887198ec03624a8a641266f110843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71203ed9484a7faed55c66a2b8e354d9') in 0.017133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab
-  artifactKey: Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Prefabs/Environment/Tree_3.prefab using Guid(ba6beab635d60d54abeff43810616e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08fbd9f7995b7fcb563b16ff5bab53b') in 0.017849 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab
-  artifactKey: Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Prefabs/Environment/Tree.prefab using Guid(ad5542dc75b57284f8cf86f19b9ea0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c978a80f34d4a55d05a7e4750a97aaa') in 0.018058 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 2.406574 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Prefabs/Props/ButtonBase.prefab
-  artifactKey: Guid(1400301ed26c91f44a959a300e3e18b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Prefabs/Props/ButtonBase.prefab using Guid(1400301ed26c91f44a959a300e3e18b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12f430206e9f6ba7b9f9df55bbed2dc') in 0.013547 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Prefabs/Props/Leder_Bottom.prefab
-  artifactKey: Guid(5e1ff703574530d448cfd71c173d7cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Prefabs/Props/Leder_Bottom.prefab using Guid(5e1ff703574530d448cfd71c173d7cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129c0557cd457570d5302345514b2cf8') in 0.016473 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Prefabs/Props/Leder_Full.prefab
-  artifactKey: Guid(bea14fb6b85d8f14f869095e2f7eaa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Prefabs/Props/Leder_Full.prefab using Guid(bea14fb6b85d8f14f869095e2f7eaa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d45e4c547029707e10b1ae2528f68a') in 0.020000 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.619496 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Prefabs/Complex/Base_2.prefab
-  artifactKey: Guid(24a77ab73cfeaa54ba72daf6e1dd0f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Prefabs/Complex/Base_2.prefab using Guid(24a77ab73cfeaa54ba72daf6e1dd0f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6324092fd2b638848096c94079ba0836') in 0.015672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Prefabs/Complex/Base_10.prefab
-  artifactKey: Guid(696054cd3122fd4408591593623f7f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Prefabs/Complex/Base_10.prefab using Guid(696054cd3122fd4408591593623f7f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a984f7f94a25f89bbe86eebc5fb647') in 0.015604 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Prefabs/Complex/Base_9 _tall.prefab
-  artifactKey: Guid(79abd37487df733468172a283ed6474e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Prefabs/Complex/Base_9 _tall.prefab using Guid(79abd37487df733468172a283ed6474e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9009b50cbdafb49b2ed3177c4f1802') in 0.015723 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 1.364543 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Prefabs/Base/Base_2.prefab
-  artifactKey: Guid(b8be7b75c4e8b4c4083862ebb8e149cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Prefabs/Base/Base_2.prefab using Guid(b8be7b75c4e8b4c4083862ebb8e149cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca02e0e162729879a30523ddbee225c5') in 0.014039 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Prefabs/Base/Base_5_solid.prefab
-  artifactKey: Guid(24c4784b70bf6734aa8fcac19882ec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Prefabs/Base/Base_5_solid.prefab using Guid(24c4784b70bf6734aa8fcac19882ec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f7a978525804924130f6774a3a4ad1') in 0.013886 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 5.091210 seconds.
+  Time since last request: 0.705088 seconds.
   path: Assets/MainGame/Tale Monster Cube Env/Meshes/Base.asset
   artifactKey: Guid(44fcc8a852abb1343bd6165437060363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Meshes/Base.asset using Guid(44fcc8a852abb1343bd6165437060363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b589561617426e7c7f342cd57c186e7d') in 0.012721 seconds
+Start importing Assets/MainGame/Tale Monster Cube Env/Meshes/Base.asset using Guid(44fcc8a852abb1343bd6165437060363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144913bc2097609e0e434ade10ffb489') in 0.027205 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
@@ -626,62 +258,325 @@ Received Import Request.
   Time since last request: 0.000016 seconds.
   path: Assets/MainGame/Tale Monster Cube Env/Meshes/Button.asset
   artifactKey: Guid(04629e66c06df604195425fe0f222c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Meshes/Button.asset using Guid(04629e66c06df604195425fe0f222c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36770e2ce4fcd9e77b8bc55ad2259609') in 0.012506 seconds
+Start importing Assets/MainGame/Tale Monster Cube Env/Meshes/Button.asset using Guid(04629e66c06df604195425fe0f222c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da82a067404892779bd3adda8c180f9') in 0.013336 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Meshes/Lader_Full_2.asset
-  artifactKey: Guid(e8281d45e5403494cb81a4f54b8892f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Meshes/Lader_Full_2.asset using Guid(e8281d45e5403494cb81a4f54b8892f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad67938148910fdd12be501f351eca9') in 0.056188 seconds
+  Time since last request: 0.000033 seconds.
+  path: Assets/MainGame/Tale Monster Cube Env/Meshes/Base_10.asset
+  artifactKey: Guid(05c8587ded49ac541a2e6316f859f384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Tale Monster Cube Env/Meshes/Base_10.asset using Guid(05c8587ded49ac541a2e6316f859f384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c426b5ac462ff58f5ad910f05650385') in 0.014766 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MainGame/Tale Monster Cube Env/Meshes/Base_6.asset
+  artifactKey: Guid(0b123b13f1af59b4a90a707cc276c598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Tale Monster Cube Env/Meshes/Base_6.asset using Guid(0b123b13f1af59b4a90a707cc276c598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da535816a4ce44ef829685b5234e3c9') in 0.025028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MainGame/Tale Monster Cube Env/Meshes/Leder_Top.asset
+  artifactKey: Guid(2975b32e8620d254fa6aa6c427cb90ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Tale Monster Cube Env/Meshes/Leder_Top.asset using Guid(2975b32e8620d254fa6aa6c427cb90ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e5d4769f12659e3c815a45590f22e8') in 0.015871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MainGame/Tale Monster Cube Env/Meshes/Props_1.asset
+  artifactKey: Guid(e09a4c6fece17f348aca242101db2139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Tale Monster Cube Env/Meshes/Props_1.asset using Guid(e09a4c6fece17f348aca242101db2139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b169136fa9550321d6bae5ffd5d67592') in 0.013160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
   path: Assets/MainGame/Tale Monster Cube Env/Meshes/Coin.asset
   artifactKey: Guid(f128d26878c5d444d8875a398a91a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Meshes/Coin.asset using Guid(f128d26878c5d444d8875a398a91a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6267630c678069a038328319394ff36') in 0.012461 seconds
+Start importing Assets/MainGame/Tale Monster Cube Env/Meshes/Coin.asset using Guid(f128d26878c5d444d8875a398a91a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4417927a797bdadfd919a954cd1ab5c') in 0.015165 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Meshes/Rock.asset
-  artifactKey: Guid(40e2409f4cec12c479853502f15a6013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Meshes/Rock.asset using Guid(40e2409f4cec12c479853502f15a6013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca069288aa616f2467d5d42a28e3acb7') in 0.012380 seconds
+  path: Assets/MainGame/Tale Monster Cube Env/Meshes/Leder_Bottom.asset
+  artifactKey: Guid(0e562151f17100b42b9d786c76b11a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Tale Monster Cube Env/Meshes/Leder_Bottom.asset using Guid(0e562151f17100b42b9d786c76b11a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821e82b03b788e3ad8a7054c011af47b') in 0.017899 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.545063 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Materials/Button.mat
-  artifactKey: Guid(b889d6a4246c61649b56a0d4264b5594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Materials/Button.mat using Guid(b889d6a4246c61649b56a0d4264b5594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a6770c9bc7f9a7f0cbb25df6f0a460') in 0.012046 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/MainGame/Tale Monster Cube Env/Meshes/Rock.asset
+  artifactKey: Guid(40e2409f4cec12c479853502f15a6013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Tale Monster Cube Env/Meshes/Rock.asset using Guid(40e2409f4cec12c479853502f15a6013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982e65882b9f8f7276bb0562afc72c6b') in 0.012849 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Materials/Water.mat
-  artifactKey: Guid(dee2eefd7b8be9b4da71c23b79e829dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Materials/Water.mat using Guid(dee2eefd7b8be9b4da71c23b79e829dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda7450359db7d433b00e15bdac82311') in 0.100830 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/MainGame/Tale Monster Cube Env/Meshes/Base_3.asset
+  artifactKey: Guid(70ea66d1fbe13054086dc4a7289ad3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/Tale Monster Cube Env/Meshes/Base_3.asset using Guid(70ea66d1fbe13054086dc4a7289ad3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3598844d80a467e78572ed57d877159f') in 0.013745 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 2.069306 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Prefabs/Top/Top_2.prefab
-  artifactKey: Guid(206ba921695287f41ba9e27245b7e049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Prefabs/Top/Top_2.prefab using Guid(206ba921695287f41ba9e27245b7e049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27cc25fc4cff683865509a984071c90') in 0.012612 seconds
+  Time since last request: 15.013891 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Materials/SpriteProps_Purple.mat
+  artifactKey: Guid(805487a24eecbcf4a923c3ff4746bd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Materials/SpriteProps_Purple.mat using Guid(805487a24eecbcf4a923c3ff4746bd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0822f5beeb2bbcd77a424db14747f512') in 0.014818 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/MainGame/Tale Monster Cube Env/Prefabs/Top/Top_6.prefab
-  artifactKey: Guid(b09ee3a808edd894ebb48a82c03b4be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MainGame/Tale Monster Cube Env/Prefabs/Top/Top_6.prefab using Guid(b09ee3a808edd894ebb48a82c03b4be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed780efe14cc2e82586ce2c5ee03467') in 0.021084 seconds
+  Time since last request: 0.000030 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Materials/SpriteProps_Yellow.mat
+  artifactKey: Guid(eb42043ce030bd64abb0a0f6dfc0e4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Materials/SpriteProps_Yellow.mat using Guid(eb42043ce030bd64abb0a0f6dfc0e4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1447f3a3101c5a81bf0b2967e28de34f') in 0.013640 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.214951 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/Cube_Large.fbx
+  artifactKey: Guid(98631f972d2925141a2dcee745a587f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/Cube_Large.fbx using Guid(98631f972d2925141a2dcee745a587f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6f9a1a777b3eb5484ede6f6c4aeb5c') in 0.032370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/PipeJointSmall.fbx
+  artifactKey: Guid(2da98b7aec320274bb1a729164163c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/PipeJointSmall.fbx using Guid(2da98b7aec320274bb1a729164163c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ae708f57770a1111301cf72d4eaee0') in 0.020051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/PipeJointMedium.fbx
+  artifactKey: Guid(f61fd52f8ec9fc041916a33cc197e0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/PipeJointMedium.fbx using Guid(f61fd52f8ec9fc041916a33cc197e0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8250f29a83417527fe3aeb6bfeb0437') in 0.027713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/Monitor.fbx
+  artifactKey: Guid(62e6c33a1788778409c1728e51065f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Models/Monitor.fbx using Guid(62e6c33a1788778409c1728e51065f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e9e0803ef6f16cbed502e32e38d875') in 0.028305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 2.112588 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Textures/Assets_Purple.png
+  artifactKey: Guid(31c6dd87ad55e264791da6f82c245bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Textures/Assets_Purple.png using Guid(31c6dd87ad55e264791da6f82c245bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8945cc92de40732686d230e605337b59') in 0.045291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Textures/Assets_Yellow.png
+  artifactKey: Guid(8ffe284ffd9d5c7479aa77b540d5bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Textures/Assets_Yellow.png using Guid(8ffe284ffd9d5c7479aa77b540d5bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83c994421040640df3ced5cd9848bdc') in 0.011714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.796477 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Purple/Cube_Large_Purple.prefab
+  artifactKey: Guid(d70d633346f48ad4788e771dd4551997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Purple/Cube_Large_Purple.prefab using Guid(d70d633346f48ad4788e771dd4551997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a51b2275ab3b48cd879a4ae7b01924') in 0.011870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.013702 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Purple/PipeJointMedium_Purple.prefab
+  artifactKey: Guid(7b5b9fc17c867c74c91bed747c5de235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Purple/PipeJointMedium_Purple.prefab using Guid(7b5b9fc17c867c74c91bed747c5de235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6b534b1c44f007af58502cc55573ec') in 0.012122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.003732 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Purple/PipeSmall_Purple.prefab
+  artifactKey: Guid(a98ea4edf95ab2a40932316cfdc3d61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Purple/PipeSmall_Purple.prefab using Guid(a98ea4edf95ab2a40932316cfdc3d61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ff6d9cb8405c1913329eee9ce0a399') in 0.011799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 9.557499 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Red/Cube_Large_Red.prefab
+  artifactKey: Guid(029fc81f01c385646a6cdb0127ed8334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Red/Cube_Large_Red.prefab using Guid(029fc81f01c385646a6cdb0127ed8334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228445ea841633ba8ba9cf2963e89afa') in 0.014138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.001688 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Red/Monitor_Red.prefab
+  artifactKey: Guid(d537e654e9da0c14f83e338b4fddfd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Red/Monitor_Red.prefab using Guid(d537e654e9da0c14f83e338b4fddfd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4f95f7e14e2ae1734a42da1305acee') in 0.016671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.008510 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Red/PipeSmall_Red.prefab
+  artifactKey: Guid(ac9d0c41ef33a3047bb1d5666387dbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Red/PipeSmall_Red.prefab using Guid(ac9d0c41ef33a3047bb1d5666387dbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c4ed9b23a57ae7fc1033bea313b6162') in 0.016345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 7.290548 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Blue/Cube_Large_Blue.prefab
+  artifactKey: Guid(3a067ef09e75c36439746dbf04d53727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Blue/Cube_Large_Blue.prefab using Guid(3a067ef09e75c36439746dbf04d53727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16affda2b4a1d8ad222f1dabaf4bb78f') in 0.012816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.003475 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Blue/Monitor_Blue.prefab
+  artifactKey: Guid(61c18354b6c984e45ad067f5b5835ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Blue/Monitor_Blue.prefab using Guid(61c18354b6c984e45ad067f5b5835ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc476afca938832a0cb36883355ef4f') in 0.012310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.003508 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Blue/PipeJointSmall_Blue.prefab
+  artifactKey: Guid(aa614496c9a77e541a0dcd02ecc2f687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Blue/PipeJointSmall_Blue.prefab using Guid(aa614496c9a77e541a0dcd02ecc2f687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe74553e4f7e003304d12784cc342f4') in 0.016373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 7.053516 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Green/Cube_Large_Green.prefab
+  artifactKey: Guid(a71ff773ea6039c4aba7d0d2c6d849ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Green/Cube_Large_Green.prefab using Guid(a71ff773ea6039c4aba7d0d2c6d849ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3337fa0483d19c800657092ae8897db4') in 0.013487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.006116 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Green/Monitor_Green.prefab
+  artifactKey: Guid(66949237677040046b62c69f3b30b787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Green/Monitor_Green.prefab using Guid(66949237677040046b62c69f3b30b787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ad59abd07944de6e1c2e3e903613ee') in 0.012931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.001677 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Green/PipeJointSmall_Green.prefab
+  artifactKey: Guid(9d1f6efdc9f897f489d34bdcf9abe87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Green/PipeJointSmall_Green.prefab using Guid(9d1f6efdc9f897f489d34bdcf9abe87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3bf71d438436192ef2aa88c40bc3e0') in 0.012986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 7.910819 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Yellow/Cube_Large_Yellow.prefab
+  artifactKey: Guid(075a9dbdf31be03428ccfd6f1e8c1729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Yellow/Cube_Large_Yellow.prefab using Guid(075a9dbdf31be03428ccfd6f1e8c1729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348ba57b81ba3adc0b5adcdac24f9c4d') in 0.014535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.001425 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Yellow/Monitor_Yellow.prefab
+  artifactKey: Guid(8e8b8bef0e9378d44b81c5847816ebf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Yellow/Monitor_Yellow.prefab using Guid(8e8b8bef0e9378d44b81c5847816ebf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8432616b0a4af59610d9b033de95c7') in 0.012759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.002501 seconds.
+  path: Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Yellow/PipeJointSmall_Yellow.prefab
+  artifactKey: Guid(f23224803bfff0747b6f8d116e6cdd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGame/3D Sprite Sci-Fi Props/SpriteProps_Prefabs/SpriteProps_Yellow/PipeJointSmall_Yellow.prefab using Guid(f23224803bfff0747b6f8d116e6cdd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd0105a29d9eac6e448f79b109aa520') in 0.014200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.410 seconds
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.774 seconds
+Domain Reload Profiling: 1184ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (255ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (775ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (342ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (30.7 KB). Loaded Objects now: 3643.
+Memory consumption went from 133.0 MB to 132.9 MB.
+Total: 2.373100 ms (FindLiveObjects: 0.240400 ms CreateObjectMapping: 0.180300 ms MarkObjects: 1.917000 ms  DeleteObjects: 0.034600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

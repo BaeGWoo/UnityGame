@@ -376,6 +376,14 @@
 "Assets/Class7th (Prefab)/Scripts/Health.cs"
 "Assets/Class7th (Prefab)/Scripts/Mummy.cs"
 "Assets/Class8th (Instantiate)/Scripts/CreateManager.cs"
+"Assets/Test/Scripts/Blue.cs"
+"Assets/Test/Scripts/Click.cs"
+"Assets/Test/Scripts/CubeManager.cs"
+"Assets/Test/Scripts/Green.cs"
+"Assets/Test/Scripts/MouseManager.cs"
+"Assets/Test/Scripts/Red.cs"
+"Assets/Test/Scripts/Violet.cs"
+"Assets/Test/Scripts/Yellow.cs"
 -langversion:9.0
 /deterministic
 /optimize+
