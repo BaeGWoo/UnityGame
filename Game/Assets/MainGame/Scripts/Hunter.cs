@@ -4,10 +4,17 @@ using UnityEngine;
 
 public class Hunter : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static Vector3 HunterPosition;
+    [SerializeField] AIManager aiManager;
+    void Awake()
     {
         
+        HunterPosition = new Vector3(0, 0, 0);
+    }
+
+    public void Move()
+    {
+        Debug.Log("Move");
     }
 
     // Update is called once per frame
