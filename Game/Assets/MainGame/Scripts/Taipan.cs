@@ -7,16 +7,16 @@ public class Taipan : MonoBehaviour, AnimalInterface
     private Vector3[] movePoint = new Vector3[4];
     private Vector3[] moveDirection = new Vector3[4];
     private Animator animator;
-
+    [SerializeField] GameObject AttackBox;
     public AIManager aimanager;
     public float jumpHeight = 2f; // 점프 높이
     public float jumpDuration = 1f; // 점프 애니메이션의 지속 시간
     private void Awake()
     {
-        moveDirection[0] = new Vector3(5.2f, 0, 6f);
-        moveDirection[1] = new Vector3(-5.2f, 0, 6f);
-        moveDirection[2] = new Vector3(-5.2f, 0, -6f);
-        moveDirection[3] = new Vector3(5.2f, 0, -6f);
+        moveDirection[0] = new Vector3(5.2f, 0, 6);
+        moveDirection[1] = new Vector3(-5.2f, 0, 6);
+        moveDirection[2] = new Vector3(-5.2f, 0, -6);
+        moveDirection[3] = new Vector3(5.2f, 0, -6);
 
         animator = GetComponent<Animator>();
     }
@@ -34,7 +34,7 @@ public class Taipan : MonoBehaviour, AnimalInterface
         for (int i = 0; i < movePoint.Length; i++)
         {
             movePoint[i] = new Vector3(moveDirection[i].x + transform.position.x, 0, moveDirection[i].z + transform.position.z);
-            Debug.Log(movePoint[i]);
+           
         }
 
 
@@ -79,11 +79,37 @@ public class Taipan : MonoBehaviour, AnimalInterface
         }
 
         transform.position = new Vector3(targetPosition.x, startPosition.y, targetPosition.z);
+        transform.LookAt(Hunter.HunterPosition);
+        Vector3 eulerAngles = transform.eulerAngles;
+
+        // 각도 값을 0~360 범위로 변환합니다.
+        float yRotation = Mathf.Round(eulerAngles.y / 90) * 90;
+
+        // 회전값을 설정합니다.
+        transform.rotation = Quaternion.Euler(eulerAngles.x, yRotation, eulerAngles.z);
+        if (transform.position == Hunter.HunterPosition)
+        {
+            Attack();
+        }
     }
 
 
     public void Attack()
     {
+        StartCoroutine(ActiveAttackBox());
+    }
 
+    private IEnumerator ActiveAttackBox()
+    {
+        animator.SetTrigger("Attack");
+
+        // GameObject를 활성화합니다.
+        AttackBox.SetActive(true);
+
+        // 지정한 시간 동안 대기합니다.
+        yield return new WaitForSeconds(1.0f);
+
+        // GameObject를 비활성화합니다.
+        AttackBox.SetActive(false);
     }
 }

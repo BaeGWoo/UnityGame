@@ -34,7 +34,7 @@ public class Colobus : MonoBehaviour, AnimalInterface
         for (int i = 0; i < movePoint.Length; i++)
         {
             movePoint[i] = new Vector3(moveDirection[i].x + transform.position.x, 0, moveDirection[i].z + transform.position.z);
-            Debug.Log(movePoint[i]);
+           
         }
 
 
@@ -83,6 +83,14 @@ public class Colobus : MonoBehaviour, AnimalInterface
         }
 
         transform.position = new Vector3(targetPosition.x, startPosition.y, targetPosition.z);
+        transform.LookAt(Hunter.HunterPosition);
+        Vector3 eulerAngles = transform.eulerAngles;
+
+        // 각도 값을 0~360 범위로 변환합니다.
+        float yRotation = Mathf.Round(eulerAngles.y / 90) * 90;
+
+        // 회전값을 설정합니다.
+        transform.rotation = Quaternion.Euler(eulerAngles.x, yRotation, eulerAngles.z);
     }
 
 
