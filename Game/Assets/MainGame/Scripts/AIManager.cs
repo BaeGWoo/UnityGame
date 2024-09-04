@@ -12,7 +12,7 @@ public class AIManager : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(TurnManager());
+        //StartCoroutine(TurnManager());
     }
 
     public void AnimalMove()
@@ -56,8 +56,11 @@ public class AIManager : MonoBehaviour
             hunter.Move();
 
             // Hunter의 이동이 끝나기를 대기
-            yield return new WaitForSeconds(1f); // 필요에 따라 시간 조정
-
+            while (Hunter.Moveable)
+            {
+                yield return null; // 한 프레임 대기
+            }
+            //Hunter.Moveable = false;
             AnimalAttack();
 
             // Hunter의 이동이 끝나기를 대기

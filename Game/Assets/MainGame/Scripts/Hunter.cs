@@ -5,6 +5,7 @@ using UnityEngine;
 public class Hunter : MonoBehaviour
 {
     public static Vector3 HunterPosition;
+    public static bool Moveable = false;
     [SerializeField] AIManager aiManager;
     void Awake()
     {
@@ -14,12 +15,18 @@ public class Hunter : MonoBehaviour
 
     public void Move()
     {
-        Debug.Log("Move");
+        Moveable = true;
+       
+    }
+
+    public void Attack()
+    {
+        Moveable = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position = HunterPosition;
     }
 }
