@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Hunter
   - map
+  - BlackTile
   layers:
   - Default
   - TransparentFX

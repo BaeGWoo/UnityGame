@@ -12,7 +12,7 @@ public class AIManager : MonoBehaviour
 
     private void Start()
     {
-        //StartCoroutine(TurnManager());
+        StartCoroutine(TurnManager());
     }
 
     public void AnimalMove()

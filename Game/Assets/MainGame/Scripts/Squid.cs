@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Squid : MonoBehaviour, AnimalInterface
 {
-    private Vector3[] movePoint = new Vector3[8];
+    private Vector3[] movePoint = new Vector3[9];
     private Vector3[] moveDirection = new Vector3[8];
     [SerializeField] GameObject AttackBox;
     private Animator animator;
@@ -14,31 +14,32 @@ public class Squid : MonoBehaviour, AnimalInterface
     public float jumpDuration = 1f; // 점프 애니메이션의 지속 시간
     private void Awake()
     {
-        moveDirection[0] = new Vector3(5.2f, 0, 12f);
-        moveDirection[1] = new Vector3(-5.2f, 0, 12f);
-        moveDirection[2] = new Vector3(-5.2f, 0, -12f);
-        moveDirection[3] = new Vector3(5.2f, 0, -12f);
-        moveDirection[4] = new Vector3(10.4f, 0, 6f);
-        moveDirection[5] = new Vector3(10.4f, 0, -6f);
-        moveDirection[6] = new Vector3(-10.4f, 0, -6f);
-        moveDirection[7] = new Vector3(-10.4f, 0, -6f);
+        moveDirection[0] = new Vector3(4, 0, 8);
+        moveDirection[1] = new Vector3(-4, 0, 8);
+        moveDirection[2] = new Vector3(-4, 0, -8);
+        moveDirection[3] = new Vector3(4, 0, -8);
+        moveDirection[4] = new Vector3(8, 0, 4);
+        moveDirection[5] = new Vector3(8, 0, -4);
+        moveDirection[6] = new Vector3(-8, 0, -4);
+        moveDirection[7] = new Vector3(-8, 0, -4);
 
         animator = GetComponent<Animator>();
     }
 
     public void Move()
     {
-        AIManager.TileMap[(int)(transform.position.x / 2.6f), (int)(transform.position.z / 3)] = 0;
+        AIManager.TileMap[(int)(transform.position.x / 2), (int)(transform.position.z / 2)] = 0;
         Vector3 target = Hunter.HunterPosition;
         Vector3 curPosition = new Vector3(transform.position.x, 0, transform.position.z);
 
         float distance = 100;
         int minDirection = 0;
 
+        movePoint[0] = transform.position;
         // 현재 위치에서 이동할 수 있는 위치 설정하기
-        for (int i = 0; i < movePoint.Length; i++)
+        for (int i = 1; i < movePoint.Length; i++)
         {
-            movePoint[i] = new Vector3(moveDirection[i].x + transform.position.x, 0, moveDirection[i].z + transform.position.z);
+            movePoint[i] = new Vector3(moveDirection[i-1].x + transform.position.x, 0, moveDirection[i-1].z + transform.position.z);
           
         }
 
@@ -49,9 +50,9 @@ public class Squid : MonoBehaviour, AnimalInterface
             float temp;
             temp = Mathf.Abs((movePoint[i].x - target.x) + (movePoint[i].z - target.z));
 
-            if (movePoint[i].x >= -0.01f && movePoint[i].x <= 18.2 && movePoint[i].z >= -0.01f && movePoint[i].z <= 21)
+            if (movePoint[i].x >= -0.01f && movePoint[i].x <= 14 && movePoint[i].z >= -0.01f && movePoint[i].z <= 14)
             {
-                if (AIManager.TileMap[(int)(movePoint[i].x / 2.6f), (int)(movePoint[i].z / 3)] != 1)
+                if (AIManager.TileMap[(int)(movePoint[i].x / 2), (int)(movePoint[i].z / 2)] != 1)
                 {
                     if (temp < distance)
                     {
@@ -61,7 +62,7 @@ public class Squid : MonoBehaviour, AnimalInterface
                 }
             }
         }
-        AIManager.TileMap[(int)(movePoint[minDirection].x / 2.6f), (int)(movePoint[minDirection].z) / 3] = 1;
+        AIManager.TileMap[(int)(movePoint[minDirection].x / 2), (int)(movePoint[minDirection].z) / 2] = 1;
         StartCoroutine(JumpToPosition(new Vector3(movePoint[minDirection].x, 0, movePoint[minDirection].z), jumpDuration, jumpHeight));
     }
 

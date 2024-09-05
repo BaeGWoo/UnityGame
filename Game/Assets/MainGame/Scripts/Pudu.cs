@@ -5,7 +5,7 @@ using static UnityEngine.GraphicsBuffer;
 
 public class Pudu : MonoBehaviour, AnimalInterface
 {
-    private Vector3[] movePoint = new Vector3[2];
+    private Vector3[] movePoint = new Vector3[3];
     private Animator animator;
     [SerializeField] GameObject AttackBox;
     public AIManager aimanager;
@@ -18,8 +18,8 @@ public class Pudu : MonoBehaviour, AnimalInterface
 
     public void Move()
     {
-        Vector3 curPosition = new Vector3(transform.position.x, 0, transform.position.z);
-        AIManager.TileMap[(int)(curPosition.x / 2.6f), (int)(curPosition.z / 3)] = 0;
+        Vector3 curPosition = new Vector3(transform.position.x, 0.2f, transform.position.z);
+        AIManager.TileMap[(int)(curPosition.x / 2), (int)(curPosition.z / 2)] = 0;
         Vector3 target = Hunter.HunterPosition;
 
         float distance = 100;
@@ -28,8 +28,9 @@ public class Pudu : MonoBehaviour, AnimalInterface
 
 
         // 현재 위치에서 이동할 수 있는 위치 설정하기
-        movePoint[0] = new Vector3(target.x, 0, curPosition.z);
-        movePoint[1] = new Vector3(curPosition.x,0,target.z);
+        movePoint[0]= curPosition;
+        movePoint[1] = new Vector3(target.x, 0, curPosition.z);
+        movePoint[2] = new Vector3(curPosition.x,0,target.z);
 
 
         // 이동할 위치 중 target과 가장 인접한 위치 찾기
@@ -38,9 +39,9 @@ public class Pudu : MonoBehaviour, AnimalInterface
             float temp;
             temp = Mathf.Abs((movePoint[i].x - target.x) + (movePoint[i].z - target.z));
 
-            if (movePoint[i].x >= -0.01f && movePoint[i].x <= 18.2 && movePoint[i].z >= -0.01f && movePoint[i].z <= 21)
+            if (movePoint[i].x >= -0.01f && movePoint[i].x <= 14 && movePoint[i].z >= -0.01f && movePoint[i].z <= 14)
             {
-                if (AIManager.TileMap[(int)(movePoint[i].x / 2.6f), (int)(movePoint[i].z / 3)] != 1)
+                if (AIManager.TileMap[(int)(movePoint[i].x / 2), (int)(movePoint[i].z / 2)] != 1)
                 {
                     if (temp < distance)
                     {
@@ -50,7 +51,7 @@ public class Pudu : MonoBehaviour, AnimalInterface
                 }
             }
         }
-        AIManager.TileMap[(int)(movePoint[minDirection].x / 2.6f), (int)(movePoint[minDirection].z) / 3] = 1;
+        AIManager.TileMap[(int)(movePoint[minDirection].x / 2), (int)(movePoint[minDirection].z) / 2] = 1;
         StartCoroutine(JumpToPosition(new Vector3(movePoint[minDirection].x, 0, movePoint[minDirection].z), jumpDuration, jumpHeight));
 
     }

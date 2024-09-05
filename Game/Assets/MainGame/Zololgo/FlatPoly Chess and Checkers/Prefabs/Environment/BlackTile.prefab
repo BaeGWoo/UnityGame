@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1918437501149634351}
   m_Layer: 0
   m_Name: BlackTile
-  m_TagString: Untagged
+  m_TagString: BlackTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,6 +43,10 @@ PrefabInstance:
     - target: {fileID: 1263887344119252, guid: 7e11e78c695eeb947a2e2619a8a5c883, type: 3}
       propertyPath: m_Name
       value: Black (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263887344119252, guid: 7e11e78c695eeb947a2e2619a8a5c883, type: 3}
+      propertyPath: m_TagString
+      value: BlackTile
       objectReference: {fileID: 0}
     - target: {fileID: 4785192122766780, guid: 7e11e78c695eeb947a2e2619a8a5c883, type: 3}
       propertyPath: m_LocalScale.x
@@ -103,6 +107,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1263887344119252, guid: 7e11e78c695eeb947a2e2619a8a5c883, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3594501495947032136}
+    - targetCorrespondingSourceObject: {fileID: 1263887344119252, guid: 7e11e78c695eeb947a2e2619a8a5c883, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7245815721970515966}
   m_SourcePrefab: {fileID: 100100000, guid: 7e11e78c695eeb947a2e2619a8a5c883, type: 3}
 --- !u!1 &5767048845644825111 stripped
 GameObject:
@@ -124,8 +131,30 @@ MonoBehaviour:
   redMaterial: {fileID: 2100000, guid: df4aa1ae5a614564daf19ebc1552eccd, type: 2}
   curPostiion: {x: 0, y: 0, z: 0}
   moveableArea: 0
-  xSpacing: 2.6
-  zSpacing: 3
+  xSpacing: 2
+  zSpacing: 2
+  curdistance: 0
+--- !u!65 &7245815721970515966
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5767048845644825111}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: -0.9970449, y: -0.49997658, z: 0.04546058}
 --- !u!4 &5773000345982270079 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4785192122766780, guid: 7e11e78c695eeb947a2e2619a8a5c883, type: 3}
