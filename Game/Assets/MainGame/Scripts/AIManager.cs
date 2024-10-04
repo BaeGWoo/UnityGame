@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCounters;
 
 public class AIManager : MonoBehaviour
@@ -17,14 +18,20 @@ public class AIManager : MonoBehaviour
 
     public void AnimalMove()
     {
-        
+        Vector3[] movePoints=null;
+        Vector3[] moveDirections=null;
+        Animator animator = null;
+
+
         for (int i=0;i< Animals.Length; i++)
         {
-            AnimalInterface animal = Animals[i].GetComponent<AnimalInterface>();
-            if(animal != null)
-            {
-                animal.Move();
-            }
+            //AnimalInterface animal = Animals[i].GetComponent<AnimalInterface>();
+            //if(animal != null)
+            //{
+
+            //    animal.Move(movePoints, moveDirections, animator);
+            //}
+            //Animals[i].Move(i, movePoints, moveDirections);
         }
     }
 

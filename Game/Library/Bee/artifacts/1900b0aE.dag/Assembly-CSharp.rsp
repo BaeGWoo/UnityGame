@@ -377,6 +377,7 @@
 "Assets/Class7th (Prefab)/Scripts/Mummy.cs"
 "Assets/Class8th (Instantiate)/Scripts/CreateManager.cs"
 "Assets/MainGame/Scripts/AIManager.cs"
+"Assets/MainGame/Scripts/Animal.cs"
 "Assets/MainGame/Scripts/AnimalInterface.cs"
 "Assets/MainGame/Scripts/Background.cs"
 "Assets/MainGame/Scripts/Colobus.cs"

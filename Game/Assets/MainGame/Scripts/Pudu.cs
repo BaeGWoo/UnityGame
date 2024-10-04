@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using static UnityEngine.GraphicsBuffer;
 
-public class Pudu : MonoBehaviour, AnimalInterface
+public class Pudu : Animal
 {
     private Vector3[] movePoint = new Vector3[3];
+    private Vector3[] moveDirection = new Vector3[2];
     private Animator animator;
     [SerializeField] GameObject AttackBox;
     public AIManager aimanager;
@@ -14,6 +16,20 @@ public class Pudu : MonoBehaviour, AnimalInterface
     private void Awake()
     {
         animator = GetComponent<Animator>();
+
+        Vector3 target = Hunter.HunterPosition;
+
+        moveDirection[0] = new Vector3(transform.position.x, 0, target.z);
+        moveDirection[1] = new Vector3(target.x, 0, transform.position.z);
+    }
+
+    public override void Move(Vector3[] movePoints, Vector3[] moveDirections, Animator animator)
+    {
+        movePoints = movePoint;
+        moveDirections = moveDirection;
+        animator = this.animator;
+        // 개 특유의 이동 방식 구현
+        base.Move(movePoints, moveDirections, animator); // 기본 동작 호출
     }
 
     public void Move()

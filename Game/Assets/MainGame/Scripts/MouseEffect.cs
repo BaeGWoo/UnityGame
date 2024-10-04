@@ -7,16 +7,16 @@ using static UnityEngine.GraphicsBuffer;
 
 public class MouseEffect : MonoBehaviour
 {
-    public  Material redMaterial; // 빨간색 재질
+    public Material redMaterial; // 빨간색 재질
     private Material originalMaterial; // 원래 재질
-    private  Renderer objectRenderer;
-    public  Vector3 curPostiion;
+    private Renderer objectRenderer;
+    public Vector3 curPostiion;
     public bool moveableArea = false;
     public float xSpacing = 2; // x 축 간격
     public float zSpacing = 2;  // z 축 간격
     public static GameObject targetblock;
     public float padding = 0;
-   
+
     private float speed = 3.0f;
     private enum MoveStage { MovingX, MovingZ, Done }
     private MoveStage currentStage = MoveStage.MovingX;
@@ -29,7 +29,7 @@ public class MouseEffect : MonoBehaviour
         objectRenderer = GetComponent<Renderer>();
         originalMaterial = objectRenderer.material;
         currentStage = MoveStage.Done;
-        
+
     }
 
     private void Start()
@@ -44,7 +44,7 @@ public class MouseEffect : MonoBehaviour
 
     void Update()
     {
-        if (Hunter.Moveable&&!Hunter.Running)
+        if (Hunter.Moveable && !Hunter.Running)
         {
             StartCoroutine(MoveableArea());
         }
@@ -75,7 +75,7 @@ public class MouseEffect : MonoBehaviour
     public IEnumerator MoveableArea()
     {
         float distance;
-        distance = Math.Abs(Hunter.HunterPosition.x - (curPostiion.x-padding)) + Math.Abs(Hunter.HunterPosition.z - curPostiion.z);
+        distance = Math.Abs(Hunter.HunterPosition.x - (curPostiion.x - padding)) + Math.Abs(Hunter.HunterPosition.z - curPostiion.z);
         curdistance = distance;
         if (distance <= 4)
         {
@@ -102,7 +102,7 @@ public class MouseEffect : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-           
+
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
 
@@ -110,14 +110,14 @@ public class MouseEffect : MonoBehaviour
             {
                 GameObject clickedObject = hit.transform.gameObject;
                 Debug.Log(clickedObject);
-                if (clickedObject.CompareTag("map")|| clickedObject.CompareTag("BlackTile"))
+                if (clickedObject.CompareTag("map") || clickedObject.CompareTag("BlackTile"))
                 {
-                    if (!clickedObject.GetComponent<MouseEffect>().moveableArea||clickedObject==targetblock)
+                    if (!clickedObject.GetComponent<MouseEffect>().moveableArea || clickedObject == targetblock)
                     {
                         Debug.Log("not Moveable or targetblock");
                         return;
                     }
-                    
+
                 }
                 else
                 {
@@ -135,7 +135,7 @@ public class MouseEffect : MonoBehaviour
 
                 // 새 위치 계산
                 Vector3 newPosition = new Vector3(xIndex * xSpacing, clickedObject.transform.position.y, zIndex * zSpacing);
-                float newDistance = Math.Abs(newPosition.x - curPostiion.x-padding) + Math.Abs(newPosition.z - curPostiion.z);
+                float newDistance = Math.Abs(newPosition.x - curPostiion.x - padding) + Math.Abs(newPosition.z - curPostiion.z);
                 // 오브젝트 위치 이동
 
                 StartCoroutine(ReturnArea());

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Squid : MonoBehaviour, AnimalInterface
+public class Squid : Animal
 {
     private Vector3[] movePoint = new Vector3[9];
     private Vector3[] moveDirection = new Vector3[8];
@@ -24,6 +24,15 @@ public class Squid : MonoBehaviour, AnimalInterface
         moveDirection[7] = new Vector3(-8, 0, -4);
 
         animator = GetComponent<Animator>();
+    }
+
+    public override void Move(Vector3[] movePoints, Vector3[] moveDirections, Animator animator)
+    {
+        movePoints = movePoint;
+        moveDirections = moveDirection;
+        animator = this.animator;
+        // 개 특유의 이동 방식 구현
+        base.Move(movePoints, moveDirections, animator); // 기본 동작 호출
     }
 
     public void Move()
