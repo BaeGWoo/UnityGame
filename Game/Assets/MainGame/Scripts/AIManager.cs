@@ -7,6 +7,7 @@ using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCou
 public class AIManager : MonoBehaviour
 {
     [SerializeField] GameObject[] Animals;
+    private List<Animal> animals = new List<Animal>();
     public static int[,] TileMap = new int[8, 8];
     [SerializeField] Hunter hunter;
     int count = 5;
@@ -18,33 +19,17 @@ public class AIManager : MonoBehaviour
 
     public void AnimalMove()
     {
-        Vector3[] movePoints=null;
-        Vector3[] moveDirections=null;
-        Animator animator = null;
-
-
         for (int i=0;i< Animals.Length; i++)
         {
-            //AnimalInterface animal = Animals[i].GetComponent<AnimalInterface>();
-            //if(animal != null)
-            //{
-
-            //    animal.Move(movePoints, moveDirections, animator);
-            //}
-            //Animals[i].Move(i, movePoints, moveDirections);
+            Animals[i].GetComponent<Animal>().Move();  
         }
     }
 
     public void AnimalAttack()
     {
-
         for (int i = 0; i < Animals.Length; i++)
         {
-            AnimalInterface animal = Animals[i].GetComponent<AnimalInterface>();
-            if (animal != null)
-            {
-                animal.Attack();
-            }
+            Animals[i].GetComponent<Animal>().Attack();
         }
     }
 
@@ -67,7 +52,7 @@ public class AIManager : MonoBehaviour
             {
                 yield return null; // 한 프레임 대기
             }
-            //Hunter.Moveable = false;
+            Hunter.Moveable = false;
             AnimalAttack();
 
             // Hunter의 이동이 끝나기를 대기
@@ -81,9 +66,5 @@ public class AIManager : MonoBehaviour
 
 
 
-    // Update is called once per frame
-    void Update()
-    {
-     
-    }
+    
 }

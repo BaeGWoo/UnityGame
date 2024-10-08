@@ -39,7 +39,7 @@ public class MouseEffect : MonoBehaviour
         {
             padding = 1.8f;
         }
-        Debug.Log(tag);
+       
     }
 
     void Update()
@@ -53,23 +53,7 @@ public class MouseEffect : MonoBehaviour
         {
             StartCoroutine(ReturnArea());
         }
-        //if (Physics.Raycast(ray, out hit))
-        //{
-        //    if (hit.transform == transform)
-        //    {
-        //       
-        //            objectRenderer.material = redMaterial; // 마우스가 오브젝트 위에 있을 때 빨간색 재질 적용
-        //    }
-        //    else
-        //    {
-        //        objectRenderer.material = originalMaterial; // 원래 재질로 복원
-        //    }
-        //}
-        //else
-        //{
-        //    objectRenderer.material = originalMaterial; // 원래 재질로 복원
-        //}
-
+        
     }
 
     public IEnumerator MoveableArea()
